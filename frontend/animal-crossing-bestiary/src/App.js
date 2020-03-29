@@ -3,8 +3,8 @@ import './App.css';
 import Creature from "./Creature";
 
 function App() {
-    const [month, setMonth] = useState("All")
-    const [time, setTime] = useState("")
+    const [month, setMonth] = useState("all")
+    const [time, setTime] = useState("all")
     const [includeFish, setIncludeFish] = useState(true)
     const [includeBugs, setIncludeBugs] = useState(true)
     const [creatureData, setCreatureData] = useState(null)
@@ -70,14 +70,15 @@ function App() {
                 <option value="12">December</option>
             </select>
             <br/>
-            <label htmlFor="time-picker">Time: </label>
-            <input
-                type="time"
-                id="time-picker"
-                name="time-picker"
+            <label htmlFor="time-dropdown">Time:</label>
+            <select
+                id="time-dropdown"
                 value={time}
-                onChange={(e) => setTime(e.target.value)}/>
-            <br/>
+                onChange={(e) => setTime(e.target.value)}>
+                <option value="all">All</option>
+                <option value="day">Day (9AM - 4PM)</option>
+                <option value="night">Night (4PM - 9AM)</option>
+            </select>
             <div id="mainContent" className="container" style={{
                 display: 'grid',
                 gridTemplateColumns: 'repeat(auto-fill, 300px)',

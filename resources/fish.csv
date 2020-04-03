@@ -1,5 +1,4 @@
-No.,Fish,Location,Value,Month,Times,Shadow Size
-1,Bitterling,River,900,"1, 2, 3, 11, 12",All,Tiny
+1,Bitterling,River,900,1; 2; 3; 11; 12,All,Tiny
 2,Pale Chub,River,160,All,9AM - 4PM,Tiny
 3,Crucian Carp,River,160,All,All,Small
 4,Dace,River,240,All,4PM - 9AM,Medium
@@ -8,74 +7,74 @@ No.,Fish,Location,Value,Month,Times,Shadow Size
 7,Goldfish,Pond,1300,All,All,Tiny
 8,Pop-eyed Goldfish,Pond,1300,All,9AM - 4PM,Tiny
 9,Ranchu Goldfish,Pond,4500,All,9AM - 4PM,Tiny
-10,Killifish,Pond,300,"4, 5, 6, 7, 8",All,Tiny
-11,Crawfish,Pond,200,"4, 5, 6, 7, 8, 9",All,Medium
-12,Soft-shelled Turtle,River,3750,"8, 9",4PM - 9AM,Large
-13,Snapping Turtle,River,5000,"4, 5, 6, 7, 8, 9, 10",9PM - 4AM,Unknown
-14,Tadpole,Pond,100,"3, 4, 5, 6, 7",All,Tiny
-15,Frog,Pond,120,"5, 6, 7, 8",All,Small
+10,Killifish,Pond,300,4; 5; 6; 7; 8,All,Tiny
+11,Crawfish,Pond,200,4; 5; 6; 7; 8; 9,All,Medium
+12,Soft-shelled Turtle,River,3750,8; 9,4PM - 9AM,Large
+13,Snapping Turtle,River,5000,4; 5; 6; 7; 8; 9; 10,9PM - 4AM,Unknown
+14,Tadpole,Pond,100,3; 4; 5; 6; 7,All,Tiny
+15,Frog,Pond,120,5; 6; 7; 8,All,Small
 16,Freshwater Goby,River,400,All,4PM - 9AM,Small
-17,Loach,River,400,"3, 4, 5",All,Small
-18,Catfish,Pond,800,"5, 6, 7, 8, 9, 10",4PM - 9AM,Large
-19,Giant Snakehead,Pond,5500,"6, 7, 8",9AM - 4PM,Very Large
+17,Loach,River,400,3; 4; 5,All,Small
+18,Catfish,Pond,800,5; 6; 7; 8; 9; 10,4PM - 9AM,Large
+19,Giant Snakehead,Pond,5500,6; 7; 8,9AM - 4PM,Very Large
 20,Bluegill,River,180,All,9AM - 4PM,Small
-21,Yellow Perch,River,300,"1, 2, 3, 10, 11, 12",All,Medium
+21,Yellow Perch,River,300,1; 2; 3; 10; 11; 12,All,Medium
 22,Black Bass,River,400,All,All,Large
-23,Tilapia,River,800,"6, 7, 8, 9, 10",All,Medium
-24,Pike,River,1800,"9, 10, 11, 12",All,Very Large
-25,Pond Smelt,River,500,"1, 2, 12",All,Small
-26,Sweetfish,River,900,"7, 8, 9",All,Medium
-27,Cherry Salmon,River (Clifftop),1000,"3, 4, 5, 6, 9, 10, 11",4PM - 9AM,Medium
-28,Char,River (Clifftop),3800,"3, 4, 5, 6, 9, 10, 11",4PM - 9AM,Medium
-29,Golden Trout,River (Clifftop),15000,"3, 4, 5, 6, 9, 10, 11",4PM - 9AM,Large
-30,Stringfish,River (Clifftop),15000,"1, 2, 3, 12",4PM - 9AM,Huge
+23,Tilapia,River,800,6; 7; 8; 9; 10,All,Medium
+24,Pike,River,1800,9; 10; 11; 12,All,Very Large
+25,Pond Smelt,River,500,1; 2; 12,All,Small
+26,Sweetfish,River,900,7; 8; 9,All,Medium
+27,Cherry Salmon,River (Clifftop),1000,3; 4; 5; 6; 9; 10; 11,4PM - 9AM,Medium
+28,Char,River (Clifftop),3800,3; 4; 5; 6; 9; 10; 11,4PM - 9AM,Medium
+29,Golden Trout,River (Clifftop),15000,3; 4; 5; 6; 9; 10; 11,4PM - 9AM,Large
+30,Stringfish,River (Clifftop),15000,1; 2; 3; 12,4PM - 9AM,Huge
 31,Salmon,River (Mouth),700,9,All,Small
 32,King Salmon,River (Mouth),1800,9,All,Tiny
-33,Mitten Crab,River,2000,"9, 10, 11",4PM - 9AM,Small
-34,Guppy,River,1300,"4, 5, 6, 7, 8, 9, 10, 11",9AM - 4PM,Tiny
-35,Nibble Fish,River,1500,"5, 6, 7, 8, 9",9AM - 4PM,Small
-36,Angelfish,River,3000,"5, 6, 7, 8, 9, 10",4PM - 9AM,Small
-37,Betta,River,2500,"5, 6, 7, 8, 9, 10",9AM - 4PM,Small
-38,Neon Tetra,River,500,"4, 5, 6, 7, 8, 9, 10, 11",9AM - 4PM,Tiny
-39,Rainbowfish,River,800,"5, 6, 7, 8, 9, 10",9AM - 4PM,Small
-40,Piranha,River,2500,"6, 7, 8, 9","9AM - 4PM, 9PM - 4AM",Small
-41,Arowana,River,10000,"6, 7, 8, 9",4PM - 9AM,Large
-42,Dorado,River,15000,"6, 7, 8, 9",4AM - 9PM,Very Large
-43,Gar,Pond,6000,"6, 7, 8, 9",4PM - 9AM,Huge
-44,Arapaima,River,10000,"6, 7, 8, 9",4PM - 9AM,Huge
-45,Saddled Bichir,River,4000,"6, 7, 8, 9",9PM - 4AM,Large
-46,Sturgeon,River (Mouth),10000,"1, 2, 3, 9, 10, 11, 12",All,Very Large
-47,Sea Butterfly,Sea,1000,"1, 2, 3, 12",All,Tiny
-48,Sea Horse,Sea,1100,"4, 5, 6, 7, 8, 9, 10, 11",All,Tiny
-49,Clown Fish,Sea,650,"4, 5, 6, 7, 8, 9",All,Tiny
-50,Surgeonfish,Sea,1000,"4, 5, 6, 7, 8, 9",All,Small
-51,Butterfly Fish,Sea,1000,"4, 5, 6, 7, 8, 9",All,Small
-52,Napoleonfish,Sea,10000,"7, 8",4AM - 9PM,Huge
-53,Zebra Turkeyfish,Sea,500,"4, 5, 6, 7, 8, 9, 10, 11",All,Medium
-54,Blowfish,Sea,5000,"1, 2, 11, 12",9PM - 4AM,Medium
-55,Puffer Fish,Sea,250,"7, 8, 9",All,Medium
+33,Mitten Crab,River,2000,9; 10; 11,4PM - 9AM,Small
+34,Guppy,River,1300,4; 5; 6; 7; 8; 9; 10; 11,9AM - 4PM,Tiny
+35,Nibble Fish,River,1500,5; 6; 7; 8; 9,9AM - 4PM,Small
+36,Angelfish,River,3000,5; 6; 7; 8; 9; 10,4PM - 9AM,Small
+37,Betta,River,2500,5; 6; 7; 8; 9; 10,9AM - 4PM,Small
+38,Neon Tetra,River,500,4; 5; 6; 7; 8; 9; 10; 11,9AM - 4PM,Tiny
+39,Rainbowfish,River,800,5; 6; 7; 8; 9; 10,9AM - 4PM,Small
+40,Piranha,River,2500,6; 7; 8; 9,9AM - 4PM; 9PM - 4AM,Small
+41,Arowana,River,10000,6; 7; 8; 9,4PM - 9AM,Large
+42,Dorado,River,15000,6; 7; 8; 9,4AM - 9PM,Very Large
+43,Gar,Pond,6000,6; 7; 8; 9,4PM - 9AM,Huge
+44,Arapaima,River,10000,6; 7; 8; 9,4PM - 9AM,Huge
+45,Saddled Bichir,River,4000,6; 7; 8; 9,9PM - 4AM,Large
+46,Sturgeon,River (Mouth),10000,1; 2; 3; 9; 10; 11; 12,All,Very Large
+47,Sea Butterfly,Sea,1000,1; 2; 3; 12,All,Tiny
+48,Sea Horse,Sea,1100,4; 5; 6; 7; 8; 9; 10; 11,All,Tiny
+49,Clown Fish,Sea,650,4; 5; 6; 7; 8; 9,All,Tiny
+50,Surgeonfish,Sea,1000,4; 5; 6; 7; 8; 9,All,Small
+51,Butterfly Fish,Sea,1000,4; 5; 6; 7; 8; 9,All,Small
+52,Napoleonfish,Sea,10000,7; 8,4AM - 9PM,Huge
+53,Zebra Turkeyfish,Sea,500,4; 5; 6; 7; 8; 9; 10; 11,All,Medium
+54,Blowfish,Sea,5000,1; 2; 11; 12,9PM - 4AM,Medium
+55,Puffer Fish,Sea,250,7; 8; 9,All,Medium
 56,Anchovy,Sea,200,All,4AM - 9PM,Small
 57,Horse Mackerel,Sea,150,All,All,Small
-58,Barred Knifejaw,Sea,5000,"3, 4, 5, 6, 7, 8, 9, 10, 11",All,Medium
+58,Barred Knifejaw,Sea,5000,3; 4; 5; 6; 7; 8; 9; 10; 11,All,Medium
 59,Sea Bass,Sea,400,All,All,Very Large
 60,Red Snapper,Sea,3000,All,All,Medium
-61,Dab,Sea,300,"1, 2, 3, 4, 10, 11, 12",All,Medium
+61,Dab,Sea,300,1; 2; 3; 4; 10; 11; 12,All,Medium
 62,Olive Flounder,Sea,800,All,All,Large
-63,Squid,Sea,500,"1, 2, 3, 4, 5, 6, 7, 8, 12",All,Medium
-64,Moray Eel,Sea,2000,"8, 9, 10",All,Very Large
-65,Ribbon Eel,Sea,600,"6, 7, 8, 9, 10",All,Thin
-66,Tuna,Pier,7000,"1, 2, 3, 4, 11, 12",All,Huge
-67,Blue Marlin,Pier,10000,"1, 2, 3, 4, 7, 8, 9, 11, 12",All,Huge
-68,Giant Trevally,Pier,4500,"5, 6, 7, 8, 9",All,Large
-69,Mahi-Mahi,Sea,6000,"5, 6, 7, 8, 9, 10",All,Large
-70,Ocean Sunfish,Sea,4000,"7, 8, 9",4AM - 9PM,Huge (with fin)
-71,Ray,Sea,3000,"8, 9, 10, 11",4AM - 9PM,Huge
-72,Saw Shark,Sea,12000,"6, 7, 8, 9",4PM - 9AM,Huge (with fin)
-73,Hammerhead Shark,Sea,8000,"6, 7, 8, 9",4PM - 9AM,Huge (with fin)
-74,Great White Shark,Sea,15000,"6, 7, 8, 9",4PM - 9AM,Huge (with fin)
-75,Whale Shark,Sea,13000,"6, 7, 8, 9",All,Huge (with fin)
-76,Suckerfish,Sea,1500,"6, 7, 8, 9",All,Unknown
-77,Football Fish,Sea,2500,"1, 2, 3, 11, 12",4PM - 9AM,Large
-78,Oarfish,Sea,9000,"1, 2, 3, 4, 5, 12",All,Huge
+63,Squid,Sea,500,1; 2; 3; 4; 5; 6; 7; 8; 12,All,Medium
+64,Moray Eel,Sea,2000,8; 9; 10,All,Very Large
+65,Ribbon Eel,Sea,600,6; 7; 8; 9; 10,All,Thin
+66,Tuna,Pier,7000,1; 2; 3; 4; 11; 12,All,Huge
+67,Blue Marlin,Pier,10000,1; 2; 3; 4; 7; 8; 9; 11; 12,All,Huge
+68,Giant Trevally,Pier,4500,5; 6; 7; 8; 9,All,Large
+69,Mahi-Mahi,Sea,6000,5; 6; 7; 8; 9; 10,All,Large
+70,Ocean Sunfish,Sea,4000,7; 8; 9,4AM - 9PM,Huge (with fin)
+71,Ray,Sea,3000,8; 9; 10; 11,4AM - 9PM,Huge
+72,Saw Shark,Sea,12000,6; 7; 8; 9,4PM - 9AM,Huge (with fin)
+73,Hammerhead Shark,Sea,8000,6; 7; 8; 9,4PM - 9AM,Huge (with fin)
+74,Great White Shark,Sea,15000,6; 7; 8; 9,4PM - 9AM,Huge (with fin)
+75,Whale Shark,Sea,13000,6; 7; 8; 9,All,Huge (with fin)
+76,Suckerfish,Sea,1500,6; 7; 8; 9,All,Unknown
+77,Football Fish,Sea,2500,1; 2; 3; 11; 12,4PM - 9AM,Large
+78,Oarfish,Sea,9000,1; 2; 3; 4; 5; 12,All,Huge
 79,Barreleye,Sea,15000,All,9PM - 4AM,Small
 80,Coelacanth,Sea (Rain),15000,All,All,Very Large

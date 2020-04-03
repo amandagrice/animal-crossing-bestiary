@@ -1,81 +1,80 @@
-No.,Bug,Location,Value,Month,Time
-1,Common Butterfly,Above Flowers,160,"1, 2, 3, 4, 5, 6, 9, 10, 11, 12",4AM - 7PM
-2,Yellow butterfly,Flying,160,"3, 4, 5, 6, 9, 10",4AM - 7PM
-3,Tiger Butterfly,Flying,240,"3, 4, 5, 6, 7, 8, 9",4AM - 7PM
-4,Peacock Buttefly,"Above Purple, Black, Blue Flowers",2500,"3, 4, 5, 6",4AM - 7PM
-5,Common Bluebottle,Flying,300,"4, 5, 6, 7, 8",4AM - 7PM
+1,Common Butterfly,Above Flowers,160,1; 2; 3; 4; 5; 6; 9; 10; 11; 12,4AM - 7PM
+2,Yellow butterfly,Flying,160,3; 4; 5; 6; 9; 10,4AM - 7PM
+3,Tiger Butterfly,Flying,240,3; 4; 5; 6; 7; 8; 9,4AM - 7PM
+4,Peacock Buttefly,Above Purple; Black; Blue Flowers,2500,3; 4; 5; 6,4AM - 7PM
+5,Common Bluebottle,Flying,300,4; 5; 6; 7; 8,4AM - 7PM
 6,Paper Kite Butterfly,Flying,1000,All,8AM - 7PM
-7,Great Purple Emperor,Flying,3000,"5, 6, 7, 8",4AM - 7PM
-8,Monarch Butterfly,Flying,140,"9, 10, 11",4AM - 5PM
-9,Emperor Butterfly,Flying,4000,"1, 2, 3, 6, 7, 8, 9, 12",5PM - 8AM
-10,Agrias Butterfly,Flying,3000,"4, 5, 6, 7, 8, 9",8AM - 5PM
-11,Rajah Brooke's Birdwing,"Above Purple, Black, Blue Flowers",2500,"1, 2, 4, 5, 6, 7, 8, 9, 12",8AM - 5PM
-12,Queen Alexandra's Birdwing,Flying,4000,"5, 6, 7, 8, 9",8AM - 4PM
+7,Great Purple Emperor,Flying,3000,5; 6; 7; 8,4AM - 7PM
+8,Monarch Butterfly,Flying,140,9; 10; 11,4AM - 5PM
+9,Emperor Butterfly,Flying,4000,1; 2; 3; 6; 7; 8; 9; 12,5PM - 8AM
+10,Agrias Butterfly,Flying,3000,4; 5; 6; 7; 8; 9,8AM - 5PM
+11,Rajah Brooke's Birdwing,Above Purple; Black; Blue Flowers,2500,1; 2; 4; 5; 6; 7; 8; 9; 12,8AM - 5PM
+12,Queen Alexandra's Birdwing,Flying,4000,5; 6; 7; 8; 9,8AM - 4PM
 13,Moth,Near Lights,130,All,7PM - 4AM
-14,Atlas Moth,On Trees,3000,"4, 5, 6, 7, 8, 9",7PM - 4AM
-15,Madagascan Sunset Moth,Flying,2500,"4, 5, 6, 7, 8, 9",8AM - 4PM
-16,Long Locust,In Grass,200,"4, 5, 6, 7, 8, 9, 10, 11",8AM - 7PM
-17,Migratory Locust,In Grass,600,"8, 9, 10, 11",8AM - 7PM
-18,Rice Grasshopper,In Grass,400,"8, 9, 10, 11",8AM - 7PM
-19,Grasshopper,In Grass,160,"7, 8, 9",8AM - 5PM
-20,Cricket,In Grass,130,"9, 10, 11",5PM - 8AM
-21,Bell Cricket,In Grass,430,"9, 10",5PM - 8AM
-22,Mantis,On Flowers,430,"3, 4, 5, 6, 7, 8, 9, 10, 11",8AM - 5PM
-23,Orchid mantis,On Flowers,2400,"3, 4, 5, 6, 7, 8, 9, 10, 11",8AM - 5PM
-24,Honeybee,Above Flowers,200,"3, 4, 5, 6, 7",8AM - 5PM
+14,Atlas Moth,On Trees,3000,4; 5; 6; 7; 8; 9,7PM - 4AM
+15,Madagascan Sunset Moth,Flying,2500,4; 5; 6; 7; 8; 9,8AM - 4PM
+16,Long Locust,In Grass,200,4; 5; 6; 7; 8; 9; 10; 11,8AM - 7PM
+17,Migratory Locust,In Grass,600,8; 9; 10; 11,8AM - 7PM
+18,Rice Grasshopper,In Grass,400,8; 9; 10; 11,8AM - 7PM
+19,Grasshopper,In Grass,160,7; 8; 9,8AM - 5PM
+20,Cricket,In Grass,130,9; 10; 11,5PM - 8AM
+21,Bell Cricket,In Grass,430,9; 10,5PM - 8AM
+22,Mantis,On Flowers,430,3; 4; 5; 6; 7; 8; 9; 10; 11,8AM - 5PM
+23,Orchid mantis,On Flowers,2400,3; 4; 5; 6; 7; 8; 9; 10; 11,8AM - 5PM
+24,Honeybee,Above Flowers,200,3; 4; 5; 6; 7,8AM - 5PM
 25,Wasp,Shaking Trees,2500,All,All
-26,Brown Cicada,On Trees,250,"7, 8",8AM - 5PM
-27,Robust Cicada,On Trees,300,"7, 8",8AM - 5PM
-28,Giant Cicada,On Trees,500,"7, 8",8AM - 5PM
-29,Walker cicada,On Trees,400,"8, 9",8AM - 4PM
-30,Evening Cicada,On Trees,550,"7, 8",4AM - 8AM / 4PM - 7PM
-31,Cicada Shell,On Trees,100,"7, 8",All
-32,Red Dragonfly,Flying,180,"9, 10",8AM - 7PM
-33,Darner Dragonfly,Flying,230,"4, 5, 6, 7, 8, 9, 10",8AM - 5PM
-34,Banded Dragonfly,Flying,4500,"5, 6, 7, 8, 9, 10",8AM - 5PM
-35,Damselfly,Flying,500,"1, 2, 11, 12",All
+26,Brown Cicada,On Trees,250,7; 8,8AM - 5PM
+27,Robust Cicada,On Trees,300,7; 8,8AM - 5PM
+28,Giant Cicada,On Trees,500,7; 8,8AM - 5PM
+29,Walker cicada,On Trees,400,8; 9,8AM - 4PM
+30,Evening Cicada,On Trees,550,7; 8,4AM - 8AM / 4PM - 7PM
+31,Cicada Shell,On Trees,100,7; 8,All
+32,Red Dragonfly,Flying,180,9; 10,8AM - 7PM
+33,Darner Dragonfly,Flying,230,4; 5; 6; 7; 8; 9; 10,8AM - 5PM
+34,Banded Dragonfly,Flying,4500,5; 6; 7; 8; 9; 10,8AM - 5PM
+35,Damselfly,Flying,500,1; 2; 11; 12,All
 36,Firefly,Above Freshwater,300,6,7PM - 4AM
-37,Mole Cricket,Underground,500,"1, 2, 3, 4, 5, 11, 12",All
-38,Pondskater,Water's Surface,130,"5, 6, 7, 8, 9",8AM - 7PM
-39,Diving Beetle,Water's Surface,800,"5, 6, 7, 8, 9",8AM - 7PM
-40,Giant Water Bug,Water's Surface,2000,"4, 5, 6, 7, 8, 9",7PM - 8AM
-41,Stinkbug,On Flowers,120,"3, 4, 5, 6, 7, 8, 9, 10",All
-42,Man-Faced Stink Bug,On Flowers,1000,"3, 4, 5, 6, 7, 8, 9, 10",7PM - 8AM
-43,Ladybug,On Flowers,200,"3, 4, 5, 6, 10",8AM - 5PM
-44,Tiger beetle,Flying,1500,"2, 3, 4, 5, 6, 7, 8, 9, 10",All
-45,Jewel Beetle,On Trees,2400,"4, 5, 6, 7, 8",All
+37,Mole Cricket,Underground,500,1; 2; 3; 4; 5; 11; 12,All
+38,Pondskater,Water's Surface,130,5; 6; 7; 8; 9,8AM - 7PM
+39,Diving Beetle,Water's Surface,800,5; 6; 7; 8; 9,8AM - 7PM
+40,Giant Water Bug,Water's Surface,2000,4; 5; 6; 7; 8; 9,7PM - 8AM
+41,Stinkbug,On Flowers,120,3; 4; 5; 6; 7; 8; 9; 10,All
+42,Man-Faced Stink Bug,On Flowers,1000,3; 4; 5; 6; 7; 8; 9; 10,7PM - 8AM
+43,Ladybug,On Flowers,200,3; 4; 5; 6; 10,8AM - 5PM
+44,Tiger beetle,Flying,1500,2; 3; 4; 5; 6; 7; 8; 9; 10,All
+45,Jewel Beetle,On Trees,2400,4; 5; 6; 7; 8,All
 46,Citrus Long-Horned Beetle,On Tree Stumps,350,All,All
-47,Rosalia Batesi Beetle,On Tree Stumps,3000,"5, 6, 7, 8, 9",All
-48,Blue Weevil Beetle,On Trees,Unknown,"7, 8",All
-49,Violin Beetle,On Trees,450,"5, 6, 9, 10, 11",All
-50,Dung beetle,On Ground,400,"1, 2, 12",All
-51,Earth-Boring Dung Beetle,On Ground,300,"7, 8, 9",All
-52,Scarab Beetle,On Trees,6000,"7, 8",11PM - 8AM
-53,Drone Beetle,On Trees,200,"6, 7, 8",All
-54,Goliath Beetle,On Trees,8000,"6, 7, 8, 9",5PM - 8AM
-55,Saw Stag,On Trees,2000,"7, 8",All
-56,Miyama Stag,On Trees,1000,"7, 8",All day
-57,Giant Stag,On Trees,10000,"7, 8",11PM - 8AM
-58,Rainbow stag,On Trees,6000,"6, 7, 8, 9",7PM - 8AM
-59,Cyclommatus Stag,On Trees,8000,"7, 8",5PM - 8AM
-60,Golden Stag,On Trees,12000,"7, 8",5PM - 8AM
-61,Giraffe Stag,On Trees,Unknown,"7, 8",5PM - 8AM
-62,Horned Dynastid,On Trees,1350,"7, 8",5PM - 8AM
-63,Horned Atlas,On Trees,8000,"7, 8",5PM - 8AM
-64,Horned Elephant,On Trees,8000,"7, 8",5PM - 8AM
-65,Horned Hercules,On Trees,12000,"7, 8",5PM - 8AM
-66,Walking Stick,On Trees,600,"7, 8, 9, 10, 11",4AM - 8AM / 5PM - 7PM
-67,Walking Leaf,On Ground (Beneath Trees),600,"7, 8, 9",All
+47,Rosalia Batesi Beetle,On Tree Stumps,3000,5; 6; 7; 8; 9,All
+48,Blue Weevil Beetle,On Trees,800,7; 8,All
+49,Violin Beetle,On Trees,450,5; 6; 9; 10; 11,All
+50,Dung beetle,On Ground,400,1; 2; 12,All
+51,Earth-Boring Dung Beetle,On Ground,300,7; 8; 9,All
+52,Scarab Beetle,On Trees,6000,7; 8,11PM - 8AM
+53,Drone Beetle,On Trees,200,6; 7; 8,All
+54,Goliath Beetle,On Trees,8000,6; 7; 8; 9,5PM - 8AM
+55,Saw Stag,On Trees,2000,7; 8,All
+56,Miyama Stag,On Trees,1000,7; 8,All day
+57,Giant Stag,On Trees,10000,7; 8,11PM - 8AM
+58,Rainbow stag,On Trees,6000,6; 7; 8; 9,7PM - 8AM
+59,Cyclommatus Stag,On Trees,8000,7; 8,5PM - 8AM
+60,Golden Stag,On Trees,12000,7; 8,5PM - 8AM
+61,Giraffe Stag,On Trees,12000,7; 8,5PM - 8AM
+62,Horned Dynastid,On Trees,1350,7; 8,5PM - 8AM
+63,Horned Atlas,On Trees,8000,7; 8,5PM - 8AM
+64,Horned Elephant,On Trees,8000,7; 8,5PM - 8AM
+65,Horned Hercules,On Trees,12000,7; 8,5PM - 8AM
+66,Walking Stick,On Trees,600,7; 8; 9; 10; 11,4AM - 8AM / 5PM - 7PM
+67,Walking Leaf,On Ground (Beneath Trees),600,7; 8; 9,All
 68,Bagworm,Shaking Trees,600,All,All
 69,Ant,On Rotten Turnips and Fruit,80,All,All
 70,Hermit crab,On Beach,1000,All,7PM - 8AM
 71,Wharf Roach,On Beach Rocks,200,All,All
 72,Fly,On Rotten Food and Garbage,80,All,All
-73,Mosquito,Flying,130,"6, 7, 8, 9",5PM - 4AM
-74,Flea,On Flea-Infested Villagers,70,"4, 5, 6, 7, 8, 9, 10, 11",All
+73,Mosquito,Flying,130,6; 7; 8; 9,5PM - 4AM
+74,Flea,On Flea-Infested Villagers,70,4; 5; 6; 7; 8; 9; 10; 11,All
 75,Snail,On Rocks (Rain),250,All,All
-76,Pill Bug,Under Rocks,250,"1, 2, 3, 4, 5, 6, 9, 10, 11, 12",11PM - 4PM
-77,Centipede,Under Rocks,300,"1, 2, 3, 4, 5, 6, 9, 10, 11, 12",5PM - 11PM
+76,Pill Bug,Under Rocks,250,1; 2; 3; 4; 5; 6; 9; 10; 11; 12,11PM - 4PM
+77,Centipede,Under Rocks,300,1; 2; 3; 4; 5; 6; 9; 10; 11; 12,5PM - 11PM
 78,Spider,Shaking Trees,300,All,7PM - 8AM
-79,Tarantula,On Ground,8000,"1, 2, 3, 4, 11, 12",7PM - 4AM
-80,Scorpion,On Ground,8000,"5, 6, 7, 8, 9, 10",7PM - 4AM
+79,Tarantula,On Ground,8000,1; 2; 3; 4; 11; 12,7PM - 4AM
+80,Scorpion,On Ground,8000,5; 6; 7; 8; 9; 10,7PM - 4AM

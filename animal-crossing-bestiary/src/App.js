@@ -63,7 +63,7 @@ function App() {
             </select>
             <div id="mainContent" className="container" style={{
                 display: 'grid',
-                gridTemplateColumns: 'repeat(auto-fill, 300px)',
+                gridTemplateColumns: 'repeat(auto-fill, 400px)',
             }}>
                 {displayedFish && displayedFish.map((fish) =>
                     <Creature key={fish.id} data={fish}/>

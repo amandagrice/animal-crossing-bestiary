@@ -29,7 +29,9 @@ function App() {
 
     return (
         <div>
-            <h2>Animal Crossing Bestiary {displayedFish.length}</h2>
+            <div style={{ textAlign: 'center', fontSize: '4vw'}}>Critterpedia</div>
+            <div style={{ textAlign: 'center', fontSize: '2vw'}}>Displaying: {displayedFish.length} Fish</div>
+            <div style={{ textAlign: 'center'}}>
             <label htmlFor="month-dropdown">Month:</label>
             <select
                 id="month-dropdown"
@@ -61,6 +63,7 @@ function App() {
                 <option value="16, 17, 18, 19, 20, 21">Evening (4PM to 9PM)</option>
                 <option value="1, 2, 3, 4, 21, 22, 23, 24">Super Late (9PM to 4am)</option>
             </select>
+            </div>
             <div id="mainContent" className="container" style={{
                 display: 'grid',
                 gridTemplateColumns: 'repeat(auto-fill, 400px)',

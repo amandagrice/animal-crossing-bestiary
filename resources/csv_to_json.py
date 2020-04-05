@@ -11,6 +11,15 @@ def get_months(months):
 			months[i] = int(months[i])
 	return months
 
+def get_times(times):
+	if (times.strip() == "All"):
+		times = list(range(1, 25))
+	else:
+		times = times.split(';')
+		for i in range(len(times)):
+			times[i] = int(times[i])
+	return times
+
 bugs = []
 with open('bugs.csv', newline='\n') as bug_csvfile:
 	bugreader = csv.reader(bug_csvfile, delimiter=',', quotechar='|')
@@ -42,7 +51,7 @@ with open('fish.csv', newline='\n') as fish_csvfile:
 				"location": row[2],
 				"value": int(row[3]),
 				"months": get_months(row[4]),
-				"times": row[5].split('/'),
+				"times": get_times(row[5]),
 				"shadow": row[6]
 
 			})

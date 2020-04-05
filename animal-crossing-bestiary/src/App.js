@@ -3,53 +3,33 @@ import './App.css';
 import Creature from "./Creature";
 
 function App() {
-    const [month, setMonth] = useState("all")
-    const [time, setTime] = useState("all")
-    const [includeFish, setIncludeFish] = useState(true)
-    const [includeBugs, setIncludeBugs] = useState(true)
-    const [creatureData, setCreatureData] = useState(null)
+    const allFishData = require('./fish.json');
+    const [month, setMonth] = useState("all");
+    const [time, setTime] = useState("all");
+    const [displayedFish, setDisplayedFish] = useState(allFishData);
     useEffect(() => {
-        // fake for now
-        console.log("calling api...")
-        console.log("parameters: " + month + ' ' + time + ' ' + includeFish + ' ' + includeBugs)
-        setCreatureData(
-            [
-                {
-                    id: 1,
-                    type: 'Fish',
-                    name: "Anchovy",
-                    price: 200,
-                    shadow: 2,
-                    location: "Ocean",
-                    timeStart: 4,
-                    timeEnd: 21,
-                    months: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
-                },
-                {
-                    id: 2,
-                    type: 'Bug',
-                    name: "Emperor Butterfly",
-                    price: 4000,
-                    location: "Flying",
-                    timeStart: 17,
-                    timeEnd: 8,
-                    months: [1, 2, 3, 6, 7, 8, 9, 12]
+        let toDisplay = [];
+        allFishData.forEach(fish => {
+            if (month === 'all' || fish.months.includes(parseInt(month))) {
+                if (time === 'all' || findCommonElements(toIntArray(time), fish.times)) {
+                    toDisplay.push(fish)
                 }
-            ])
-    }, [month, time, includeBugs, includeFish]);
+            }
+        });
+        setDisplayedFish(toDisplay);
+    }, [month, time]);
+
+    function toIntArray(s) {
+        return s.split(',').map(e => parseInt(e))
+    }
+
+    function findCommonElements(arr1, arr2) {
+        return arr1.some(item => arr2.includes(parseInt(item)));
+    }
 
     return (
         <div>
-            <h2>Animal Crossing Bestiary</h2>
-
-            <label htmlFor="fish-checkbox">Fish</label>
-            <input type="checkbox" id="fish-checkbox" name="fish-checkbox" checked={includeFish}
-                   onChange={(e) => setIncludeFish(e.target.checked)}/>
-
-            <label htmlFor="bug-checkbox">Bugs</label>
-            <input type="checkbox" id="bug-checkbox" name="bug-checkbox" checked={includeBugs}
-                   onChange={(e) => setIncludeBugs(e.target.checked)}/>
-            <br/>
+            <h2>Animal Crossing Bestiary {displayedFish.length}</h2>
             <label htmlFor="month-dropdown">Month:</label>
             <select
                 id="month-dropdown"
@@ -76,15 +56,17 @@ function App() {
                 value={time}
                 onChange={(e) => setTime(e.target.value)}>
                 <option value="all">All</option>
-                <option value="day">Day (9AM - 4PM)</option>
-                <option value="night">Night (4PM - 9AM)</option>
+                <option value="4, 5, 6, 7, 8, 9">Super Early (4AM to 9AM)</option>
+                <option value="9, 10, 11, 12, 13, 14, 15, 16">Day (9AM to 4PM)</option>
+                <option value="16, 17, 18, 19, 20, 21">Evening (4PM to 9PM)</option>
+                <option value="1, 2, 3, 4, 21, 22, 23, 24">Super Late (9PM to 4am)</option>
             </select>
             <div id="mainContent" className="container" style={{
                 display: 'grid',
                 gridTemplateColumns: 'repeat(auto-fill, 300px)',
             }}>
-                {creatureData && creatureData.map((creature) =>
-                    <Creature key={creature.id} data={creature}/>
+                {displayedFish && displayedFish.map((fish) =>
+                    <Creature key={fish.id} data={fish}/>
                 )}
             </div>
         </div>

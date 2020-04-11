@@ -1,0 +1,52 @@
+.creature-div {
+    background-color: #dedede;
+    height: 300px;
+    width: 300px;
+    margin: 30px 0 30px 100px;
+    position: relative;
+    border-radius: 10%;
+    border: 2px solid black;
+}
+
+.creature-number {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+
+.creature-name {
+    font-size: 25px;
+    text-align: right;
+    margin-right: 15px;
+}
+
+.creature-image-holder {
+    width: 100%;
+    height: 100px;
+}
+
+.creature-image {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.creature-checkbox {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    -webkit-appearance:none;
+    width:30px;
+    height:30px;
+    background: indianred;
+    border-radius:5px;
+    border:2px solid #555;
+}
+
+.creature-div  input[type='checkbox']:checked {
+     background: forestgreen;
+ }
+
+.creature-div  input[type='checkbox']:hover {
+    border-color: white;
+}

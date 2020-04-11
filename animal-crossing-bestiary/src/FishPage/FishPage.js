@@ -1,8 +1,7 @@
 import React, {useEffect, useState} from 'react';
-import './App.css';
-import Creature from "./Creature";
+import Creature from "../Creature/Creature";
 
-function App() {
+function FishPage() {
     const allFishData = require('./fish.json');
     const [month, setMonth] = useState("all");
     const [time, setTime] = useState("all");
@@ -69,11 +68,11 @@ function App() {
                 gridTemplateColumns: 'repeat(auto-fill, 400px)',
             }}>
                 {displayedFish && displayedFish.map((fish) =>
-                    <Creature key={fish.id} data={fish}/>
+                    <Creature key={fish.id} type='fish' data={fish}/>
                 )}
             </div>
         </div>
     );
 }
 
-export default App;
+export default FishPage;

@@ -1,21 +1,32 @@
 import React, {useEffect, useState} from 'react';
 import Creature from "../Creature/Creature";
 
-function FishPage() {
+function CreatureGrid(props) {
     const allFishData = require('./fish.json');
+    const allBugData = require('./bugs.json');
     const [month, setMonth] = useState("all");
     const [time, setTime] = useState("all");
-    const [displayedFish, setDisplayedFish] = useState(allFishData);
+    const [displayedCreatures, setDisplayedCreatures] = useState(props.type === 'fish' ? allFishData : allBugData);
     useEffect(() => {
         let toDisplay = [];
-        allFishData.forEach(fish => {
-            if (month === 'all' || fish.months.includes(parseInt(month))) {
-                if (time === 'all' || findCommonElements(toIntArray(time), fish.times)) {
-                    toDisplay.push(fish)
+        if (props.type === 'fish') {
+            allFishData.forEach(fish => {
+                if (month === 'all' || fish.months.includes(parseInt(month))) {
+                    if (time === 'all' || findCommonElements(toIntArray(time), fish.times)) {
+                        toDisplay.push(fish)
+                    }
                 }
-            }
-        });
-        setDisplayedFish(toDisplay);
+            });
+        } else {
+            allBugData.forEach(bug => {
+                if (month === 'all' || bug.months.includes(parseInt(month))) {
+                    if (time === 'all' || findCommonElements(toIntArray(time), bug.times)) {
+                        toDisplay.push(bug)
+                    }
+                }
+            });
+        }
+        setDisplayedCreatures(toDisplay);
     }, [month, time]);
 
     function toIntArray(s) {
@@ -29,7 +40,7 @@ function FishPage() {
     return (
         <div>
             <div style={{ textAlign: 'center', fontSize: '4vw'}}>Critterpedia</div>
-            <div style={{ textAlign: 'center', fontSize: '2vw'}}>Displaying: {displayedFish.length} Fish</div>
+            <div style={{ textAlign: 'center', fontSize: '2vw'}}>Displaying: {displayedCreatures.length} of 80</div>
             <div style={{ textAlign: 'center'}}>
             <label htmlFor="month-dropdown">Month:</label>
             <select
@@ -67,12 +78,12 @@ function FishPage() {
                 display: 'grid',
                 gridTemplateColumns: 'repeat(auto-fill, 400px)',
             }}>
-                {displayedFish && displayedFish.map((fish) =>
-                    <Creature key={fish.id} type='fish' data={fish}/>
+                {displayedCreatures && displayedCreatures.map((creature) =>
+                    <Creature key={creature.id} type={props.type} data={creature}/>
                 )}
             </div>
         </div>
     );
 }
 
-export default FishPage;
+export default CreatureGrid;

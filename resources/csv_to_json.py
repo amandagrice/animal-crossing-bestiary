@@ -30,8 +30,9 @@ with open('bugs.csv', newline='\n') as bug_csvfile:
 				"name": row[1],
 				"location": row[2],
 				"value": int(row[3]),
-				"months": get_months(row[4]),
-				"times": row[5].split('/')
+				"monthsString": row[4],
+				"months": get_months(row[5]),
+				"times": row[6].split('/')
 
 			})
 print(json.dumps(bugs, indent=4))

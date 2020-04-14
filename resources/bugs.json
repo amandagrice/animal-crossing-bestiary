@@ -4,6 +4,7 @@
         "name": "Common Butterfly",
         "location": "Above Flowers",
         "value": 160,
+        "monthsString": "September - June",
         "months": [
             1,
             2,
@@ -25,6 +26,7 @@
         "name": "Yellow butterfly",
         "location": "Flying",
         "value": 160,
+        "monthsString": "March - May; September - October",
         "months": [
             3,
             4,
@@ -42,6 +44,7 @@
         "name": "Tiger Butterfly",
         "location": "Flying",
         "value": 240,
+        "monthsString": "March - September",
         "months": [
             3,
             4,
@@ -57,9 +60,10 @@
     },
     {
         "id": 4,
-        "name": "Peacock Butterfly",
+        "name": "Peacock Buttefly",
         "location": "Above Purple; Black; Blue Flowers",
         "value": 2500,
+        "monthsString": "March - June",
         "months": [
             3,
             4,
@@ -75,6 +79,7 @@
         "name": "Common Bluebottle",
         "location": "Flying",
         "value": 300,
+        "monthsString": "April - August",
         "months": [
             4,
             5,
@@ -91,6 +96,7 @@
         "name": "Paper Kite Butterfly",
         "location": "Flying",
         "value": 1000,
+        "monthsString": "All",
         "months": [
             1,
             2,
@@ -114,6 +120,7 @@
         "name": "Great Purple Emperor",
         "location": "Flying",
         "value": 3000,
+        "monthsString": "May - August",
         "months": [
             5,
             6,
@@ -129,6 +136,7 @@
         "name": "Monarch Butterfly",
         "location": "Flying",
         "value": 140,
+        "monthsString": "September - November",
         "months": [
             9,
             10,
@@ -143,6 +151,7 @@
         "name": "Emperor Butterfly",
         "location": "Flying",
         "value": 4000,
+        "monthsString": "December - March; June - September",
         "months": [
             1,
             2,
@@ -162,6 +171,7 @@
         "name": "Agrias Butterfly",
         "location": "Flying",
         "value": 3000,
+        "monthsString": "April - September",
         "months": [
             4,
             5,
@@ -179,6 +189,7 @@
         "name": "Rajah Brooke's Birdwing",
         "location": "Above Purple; Black; Blue Flowers",
         "value": 2500,
+        "monthsString": "December - February; April - September",
         "months": [
             1,
             2,
@@ -199,6 +210,7 @@
         "name": "Queen Alexandra's Birdwing",
         "location": "Flying",
         "value": 4000,
+        "monthsString": "May - September",
         "months": [
             5,
             6,
@@ -215,6 +227,7 @@
         "name": "Moth",
         "location": "Near Lights",
         "value": 130,
+        "monthsString": "All",
         "months": [
             1,
             2,
@@ -238,6 +251,7 @@
         "name": "Atlas Moth",
         "location": "On Trees",
         "value": 3000,
+        "monthsString": "April - September",
         "months": [
             4,
             5,
@@ -255,6 +269,7 @@
         "name": "Madagascan Sunset Moth",
         "location": "Flying",
         "value": 2500,
+        "monthsString": "April - September",
         "months": [
             4,
             5,
@@ -272,6 +287,7 @@
         "name": "Long Locust",
         "location": "In Grass",
         "value": 200,
+        "monthsString": "April - November",
         "months": [
             4,
             5,
@@ -291,6 +307,7 @@
         "name": "Migratory Locust",
         "location": "In Grass",
         "value": 600,
+        "monthsString": "August - November",
         "months": [
             8,
             9,
@@ -306,6 +323,7 @@
         "name": "Rice Grasshopper",
         "location": "In Grass",
         "value": 400,
+        "monthsString": "August - November",
         "months": [
             8,
             9,
@@ -321,6 +339,7 @@
         "name": "Grasshopper",
         "location": "In Grass",
         "value": 160,
+        "monthsString": "July - September",
         "months": [
             7,
             8,
@@ -335,6 +354,7 @@
         "name": "Cricket",
         "location": "In Grass",
         "value": 130,
+        "monthsString": "September - November",
         "months": [
             9,
             10,
@@ -349,6 +369,7 @@
         "name": "Bell Cricket",
         "location": "In Grass",
         "value": 430,
+        "monthsString": "September - October",
         "months": [
             9,
             10
@@ -362,6 +383,7 @@
         "name": "Mantis",
         "location": "On Flowers",
         "value": 430,
+        "monthsString": "March - November",
         "months": [
             3,
             4,
@@ -382,6 +404,7 @@
         "name": "Orchid mantis",
         "location": "On Flowers",
         "value": 2400,
+        "monthsString": "March - November",
         "months": [
             3,
             4,
@@ -402,6 +425,7 @@
         "name": "Honeybee",
         "location": "Above Flowers",
         "value": 200,
+        "monthsString": "March - July",
         "months": [
             3,
             4,
@@ -418,6 +442,7 @@
         "name": "Wasp",
         "location": "Shaking Trees",
         "value": 2500,
+        "monthsString": "All",
         "months": [
             1,
             2,
@@ -441,6 +466,7 @@
         "name": "Brown Cicada",
         "location": "On Trees",
         "value": 250,
+        "monthsString": "July - August",
         "months": [
             7,
             8
@@ -454,6 +480,7 @@
         "name": "Robust Cicada",
         "location": "On Trees",
         "value": 300,
+        "monthsString": "July - August",
         "months": [
             7,
             8
@@ -467,6 +494,7 @@
         "name": "Giant Cicada",
         "location": "On Trees",
         "value": 500,
+        "monthsString": "July - August",
         "months": [
             7,
             8
@@ -480,6 +508,7 @@
         "name": "Walker cicada",
         "location": "On Trees",
         "value": 400,
+        "monthsString": "August - September",
         "months": [
             8,
             9
@@ -493,6 +522,7 @@
         "name": "Evening Cicada",
         "location": "On Trees",
         "value": 550,
+        "monthsString": "July - August",
         "months": [
             7,
             8
@@ -507,6 +537,7 @@
         "name": "Cicada Shell",
         "location": "On Trees",
         "value": 100,
+        "monthsString": "July - August",
         "months": [
             7,
             8
@@ -520,6 +551,7 @@
         "name": "Red Dragonfly",
         "location": "Flying",
         "value": 180,
+        "monthsString": "September - October",
         "months": [
             9,
             10
@@ -533,6 +565,7 @@
         "name": "Darner Dragonfly",
         "location": "Flying",
         "value": 230,
+        "monthsString": "April - October",
         "months": [
             4,
             5,
@@ -551,6 +584,7 @@
         "name": "Banded Dragonfly",
         "location": "Flying",
         "value": 4500,
+        "monthsString": "May - October",
         "months": [
             5,
             6,
@@ -568,6 +602,7 @@
         "name": "Damselfly",
         "location": "Flying",
         "value": 500,
+        "monthsString": "November - February",
         "months": [
             1,
             2,
@@ -583,6 +618,7 @@
         "name": "Firefly",
         "location": "Above Freshwater",
         "value": 300,
+        "monthsString": "June",
         "months": [
             6
         ],
@@ -595,6 +631,7 @@
         "name": "Mole Cricket",
         "location": "Underground",
         "value": 500,
+        "monthsString": "November - May",
         "months": [
             1,
             2,
@@ -613,6 +650,7 @@
         "name": "Pondskater",
         "location": "Water's Surface",
         "value": 130,
+        "monthsString": "May - September",
         "months": [
             5,
             6,
@@ -629,6 +667,7 @@
         "name": "Diving Beetle",
         "location": "Water's Surface",
         "value": 800,
+        "monthsString": "May - September",
         "months": [
             5,
             6,
@@ -645,6 +684,7 @@
         "name": "Giant Water Bug",
         "location": "Water's Surface",
         "value": 2000,
+        "monthsString": "April - September",
         "months": [
             4,
             5,
@@ -662,6 +702,7 @@
         "name": "Stinkbug",
         "location": "On Flowers",
         "value": 120,
+        "monthsString": "March - October",
         "months": [
             3,
             4,
@@ -681,6 +722,7 @@
         "name": "Man-Faced Stink Bug",
         "location": "On Flowers",
         "value": 1000,
+        "monthsString": "March - October",
         "months": [
             3,
             4,
@@ -700,6 +742,7 @@
         "name": "Ladybug",
         "location": "On Flowers",
         "value": 200,
+        "monthsString": "March - June; October",
         "months": [
             3,
             4,
@@ -716,6 +759,7 @@
         "name": "Tiger beetle",
         "location": "Flying",
         "value": 1500,
+        "monthsString": "February - October",
         "months": [
             2,
             3,
@@ -736,6 +780,7 @@
         "name": "Jewel Beetle",
         "location": "On Trees",
         "value": 2400,
+        "monthsString": "April - August",
         "months": [
             4,
             5,
@@ -752,6 +797,7 @@
         "name": "Citrus Long-Horned Beetle",
         "location": "On Tree Stumps",
         "value": 350,
+        "monthsString": "All",
         "months": [
             1,
             2,
@@ -775,6 +821,7 @@
         "name": "Rosalia Batesi Beetle",
         "location": "On Tree Stumps",
         "value": 3000,
+        "monthsString": "May - September",
         "months": [
             5,
             6,
@@ -791,6 +838,7 @@
         "name": "Blue Weevil Beetle",
         "location": "On Trees",
         "value": 800,
+        "monthsString": "July - August",
         "months": [
             7,
             8
@@ -804,6 +852,7 @@
         "name": "Violin Beetle",
         "location": "On Trees",
         "value": 450,
+        "monthsString": "May - November",
         "months": [
             5,
             6,
@@ -820,6 +869,7 @@
         "name": "Dung beetle",
         "location": "On Ground",
         "value": 400,
+        "monthsString": "December - February",
         "months": [
             1,
             2,
@@ -834,6 +884,7 @@
         "name": "Earth-Boring Dung Beetle",
         "location": "On Ground",
         "value": 300,
+        "monthsString": "July - September",
         "months": [
             7,
             8,
@@ -848,6 +899,7 @@
         "name": "Scarab Beetle",
         "location": "On Trees",
         "value": 6000,
+        "monthsString": "July - August",
         "months": [
             7,
             8
@@ -861,6 +913,7 @@
         "name": "Drone Beetle",
         "location": "On Trees",
         "value": 200,
+        "monthsString": "June - August",
         "months": [
             6,
             7,
@@ -875,6 +928,7 @@
         "name": "Goliath Beetle",
         "location": "On Trees",
         "value": 8000,
+        "monthsString": "June - September",
         "months": [
             6,
             7,
@@ -890,6 +944,7 @@
         "name": "Saw Stag",
         "location": "On Trees",
         "value": 2000,
+        "monthsString": "July - August",
         "months": [
             7,
             8
@@ -903,6 +958,7 @@
         "name": "Miyama Stag",
         "location": "On Trees",
         "value": 1000,
+        "monthsString": "July - August",
         "months": [
             7,
             8
@@ -916,6 +972,7 @@
         "name": "Giant Stag",
         "location": "On Trees",
         "value": 10000,
+        "monthsString": "July - August",
         "months": [
             7,
             8
@@ -929,6 +986,7 @@
         "name": "Rainbow stag",
         "location": "On Trees",
         "value": 6000,
+        "monthsString": "June - September",
         "months": [
             6,
             7,
@@ -944,6 +1002,7 @@
         "name": "Cyclommatus Stag",
         "location": "On Trees",
         "value": 8000,
+        "monthsString": "July - August",
         "months": [
             7,
             8
@@ -957,6 +1016,7 @@
         "name": "Golden Stag",
         "location": "On Trees",
         "value": 12000,
+        "monthsString": "July - August",
         "months": [
             7,
             8
@@ -970,6 +1030,7 @@
         "name": "Giraffe Stag",
         "location": "On Trees",
         "value": 12000,
+        "monthsString": "July - August",
         "months": [
             7,
             8
@@ -983,6 +1044,7 @@
         "name": "Horned Dynastid",
         "location": "On Trees",
         "value": 1350,
+        "monthsString": "July - August",
         "months": [
             7,
             8
@@ -996,6 +1058,7 @@
         "name": "Horned Atlas",
         "location": "On Trees",
         "value": 8000,
+        "monthsString": "July - August",
         "months": [
             7,
             8
@@ -1009,6 +1072,7 @@
         "name": "Horned Elephant",
         "location": "On Trees",
         "value": 8000,
+        "monthsString": "July - August",
         "months": [
             7,
             8
@@ -1022,6 +1086,7 @@
         "name": "Horned Hercules",
         "location": "On Trees",
         "value": 12000,
+        "monthsString": "July - August",
         "months": [
             7,
             8
@@ -1035,6 +1100,7 @@
         "name": "Walking Stick",
         "location": "On Trees",
         "value": 600,
+        "monthsString": "July - November",
         "months": [
             7,
             8,
@@ -1052,6 +1118,7 @@
         "name": "Walking Leaf",
         "location": "On Ground (Beneath Trees)",
         "value": 600,
+        "monthsString": "July - September",
         "months": [
             7,
             8,
@@ -1066,6 +1133,7 @@
         "name": "Bagworm",
         "location": "Shaking Trees",
         "value": 600,
+        "monthsString": "All",
         "months": [
             1,
             2,
@@ -1089,6 +1157,7 @@
         "name": "Ant",
         "location": "On Rotten Turnips and Fruit",
         "value": 80,
+        "monthsString": "All",
         "months": [
             1,
             2,
@@ -1112,6 +1181,7 @@
         "name": "Hermit crab",
         "location": "On Beach",
         "value": 1000,
+        "monthsString": "All",
         "months": [
             1,
             2,
@@ -1135,6 +1205,7 @@
         "name": "Wharf Roach",
         "location": "On Beach Rocks",
         "value": 200,
+        "monthsString": "All",
         "months": [
             1,
             2,
@@ -1158,6 +1229,7 @@
         "name": "Fly",
         "location": "On Rotten Food and Garbage",
         "value": 80,
+        "monthsString": "All",
         "months": [
             1,
             2,
@@ -1181,6 +1253,7 @@
         "name": "Mosquito",
         "location": "Flying",
         "value": 130,
+        "monthsString": "June - September",
         "months": [
             6,
             7,
@@ -1196,6 +1269,7 @@
         "name": "Flea",
         "location": "On Flea-Infested Villagers",
         "value": 70,
+        "monthsString": "April - November",
         "months": [
             4,
             5,
@@ -1215,6 +1289,7 @@
         "name": "Snail",
         "location": "On Rocks (Rain)",
         "value": 250,
+        "monthsString": "All",
         "months": [
             1,
             2,
@@ -1238,6 +1313,7 @@
         "name": "Pill Bug",
         "location": "Under Rocks",
         "value": 250,
+        "monthsString": "September - June",
         "months": [
             1,
             2,
@@ -1259,6 +1335,7 @@
         "name": "Centipede",
         "location": "Under Rocks",
         "value": 300,
+        "monthsString": "September - June",
         "months": [
             1,
             2,
@@ -1280,6 +1357,7 @@
         "name": "Spider",
         "location": "Shaking Trees",
         "value": 300,
+        "monthsString": "All",
         "months": [
             1,
             2,
@@ -1303,6 +1381,7 @@
         "name": "Tarantula",
         "location": "On Ground",
         "value": 8000,
+        "monthsString": "November - April",
         "months": [
             1,
             2,
@@ -1320,6 +1399,7 @@
         "name": "Scorpion",
         "location": "On Ground",
         "value": 8000,
+        "monthsString": "May - October",
         "months": [
             5,
             6,

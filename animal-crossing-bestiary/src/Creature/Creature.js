@@ -19,8 +19,8 @@ function Creature(props) {
                     alt='' />
             </div>
             <div style={{fontSize: '17px', position: 'absolute', bottom: 10, left: 10}}>
-                <strong>Months:</strong> placeholder <br />
-                <strong>Times:</strong> placeholder <br />
+                <strong>Months:</strong> {props.data.monthsString} <br />
+                <strong>Times:</strong> {props.data.timeString} <br />
                 <strong>Location:</strong> {props.data.location} <br/>
                 <strong>Value:</strong> {props.data.value} <br/>
                 <div style={{display: props.type !== 'fish' ? 'none' : ''}}><strong>Shadow Size: </strong>{props.data.shadow} <br/></div>

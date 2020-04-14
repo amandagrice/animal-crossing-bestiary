@@ -4,6 +4,7 @@
         "name": "Bitterling",
         "location": "River",
         "value": 900,
+        "monthsString": "November to March",
         "months": [
             1,
             2,
@@ -11,6 +12,7 @@
             11,
             12
         ],
+        "timeString": "All",
         "times": [
             1,
             2,
@@ -44,6 +46,7 @@
         "name": "Pale Chub",
         "location": "River",
         "value": 160,
+        "monthsString": "All",
         "months": [
             1,
             2,
@@ -58,6 +61,7 @@
             11,
             12
         ],
+        "timeString": "9AM - 4PM",
         "times": [
             9,
             10,
@@ -75,6 +79,7 @@
         "name": "Crucian Carp",
         "location": "River",
         "value": 160,
+        "monthsString": "All",
         "months": [
             1,
             2,
@@ -89,6 +94,7 @@
             11,
             12
         ],
+        "timeString": "All",
         "times": [
             1,
             2,
@@ -122,6 +128,7 @@
         "name": "Dace",
         "location": "River",
         "value": 240,
+        "monthsString": "All",
         "months": [
             1,
             2,
@@ -136,6 +143,7 @@
             11,
             12
         ],
+        "timeString": "4PM - 9AM",
         "times": [
             1,
             2,
@@ -163,6 +171,7 @@
         "name": "Carp",
         "location": "Pond",
         "value": 300,
+        "monthsString": "All",
         "months": [
             1,
             2,
@@ -177,6 +186,7 @@
             11,
             12
         ],
+        "timeString": "All",
         "times": [
             1,
             2,
@@ -210,6 +220,7 @@
         "name": "Koi",
         "location": "Pond",
         "value": 4000,
+        "monthsString": "All",
         "months": [
             1,
             2,
@@ -224,6 +235,7 @@
             11,
             12
         ],
+        "timeString": "4PM - 9AM",
         "times": [
             1,
             2,
@@ -251,6 +263,7 @@
         "name": "Goldfish",
         "location": "Pond",
         "value": 1300,
+        "monthsString": "All",
         "months": [
             1,
             2,
@@ -265,6 +278,7 @@
             11,
             12
         ],
+        "timeString": "All",
         "times": [
             1,
             2,
@@ -298,6 +312,7 @@
         "name": "Pop-eyed Goldfish",
         "location": "Pond",
         "value": 1300,
+        "monthsString": "All",
         "months": [
             1,
             2,
@@ -312,6 +327,7 @@
             11,
             12
         ],
+        "timeString": "9AM - 4PM",
         "times": [
             9,
             10,
@@ -329,6 +345,7 @@
         "name": "Ranchu Goldfish",
         "location": "Pond",
         "value": 4500,
+        "monthsString": "All",
         "months": [
             1,
             2,
@@ -343,6 +360,7 @@
             11,
             12
         ],
+        "timeString": "9AM - 4PM",
         "times": [
             9,
             10,
@@ -360,6 +378,7 @@
         "name": "Killifish",
         "location": "Pond",
         "value": 300,
+        "monthsString": "April - August",
         "months": [
             4,
             5,
@@ -367,6 +386,7 @@
             7,
             8
         ],
+        "timeString": "All",
         "times": [
             1,
             2,
@@ -400,6 +420,7 @@
         "name": "Crawfish",
         "location": "Pond",
         "value": 200,
+        "monthsString": "April - September",
         "months": [
             4,
             5,
@@ -408,6 +429,7 @@
             8,
             9
         ],
+        "timeString": "All",
         "times": [
             1,
             2,
@@ -441,10 +463,12 @@
         "name": "Soft-shelled Turtle",
         "location": "River",
         "value": 3750,
+        "monthsString": "August - September",
         "months": [
             8,
             9
         ],
+        "timeString": "4PM - 9AM",
         "times": [
             1,
             2,
@@ -472,6 +496,7 @@
         "name": "Snapping Turtle",
         "location": "River",
         "value": 5000,
+        "monthsString": "April - October",
         "months": [
             4,
             5,
@@ -481,6 +506,7 @@
             9,
             10
         ],
+        "timeString": "9PM - 4AM",
         "times": [
             21,
             22,
@@ -498,6 +524,7 @@
         "name": "Tadpole",
         "location": "Pond",
         "value": 100,
+        "monthsString": "March - July",
         "months": [
             3,
             4,
@@ -505,6 +532,7 @@
             6,
             7
         ],
+        "timeString": "All",
         "times": [
             1,
             2,
@@ -538,12 +566,14 @@
         "name": "Frog",
         "location": "Pond",
         "value": 120,
+        "monthsString": "May - August",
         "months": [
             5,
             6,
             7,
             8
         ],
+        "timeString": "All",
         "times": [
             1,
             2,
@@ -577,6 +607,7 @@
         "name": "Freshwater Goby",
         "location": "River",
         "value": 400,
+        "monthsString": "All",
         "months": [
             1,
             2,
@@ -591,6 +622,7 @@
             11,
             12
         ],
+        "timeString": "4PM - 9AM",
         "times": [
             1,
             2,
@@ -618,11 +650,13 @@
         "name": "Loach",
         "location": "River",
         "value": 400,
+        "monthsString": "March - May",
         "months": [
             3,
             4,
             5
         ],
+        "timeString": "All",
         "times": [
             1,
             2,
@@ -656,6 +690,7 @@
         "name": "Catfish",
         "location": "Pond",
         "value": 800,
+        "monthsString": "May - October",
         "months": [
             5,
             6,
@@ -664,6 +699,7 @@
             9,
             10
         ],
+        "timeString": "4PM - 9AM",
         "times": [
             1,
             2,
@@ -691,11 +727,13 @@
         "name": "Giant Snakehead",
         "location": "Pond",
         "value": 5500,
+        "monthsString": "June - August",
         "months": [
             6,
             7,
             8
         ],
+        "timeString": "9AM - 4PM",
         "times": [
             9,
             10,
@@ -713,6 +751,7 @@
         "name": "Bluegill",
         "location": "River",
         "value": 180,
+        "monthsString": "All",
         "months": [
             1,
             2,
@@ -727,6 +766,7 @@
             11,
             12
         ],
+        "timeString": "9AM - 4PM",
         "times": [
             9,
             10,
@@ -744,6 +784,7 @@
         "name": "Yellow Perch",
         "location": "River",
         "value": 300,
+        "monthsString": "October - March",
         "months": [
             1,
             2,
@@ -752,6 +793,7 @@
             11,
             12
         ],
+        "timeString": "All",
         "times": [
             1,
             2,
@@ -785,6 +827,7 @@
         "name": "Black Bass",
         "location": "River",
         "value": 400,
+        "monthsString": "All",
         "months": [
             1,
             2,
@@ -799,6 +842,7 @@
             11,
             12
         ],
+        "timeString": "All",
         "times": [
             1,
             2,
@@ -832,6 +876,7 @@
         "name": "Tilapia",
         "location": "River",
         "value": 800,
+        "monthsString": "June - October",
         "months": [
             6,
             7,
@@ -839,6 +884,7 @@
             9,
             10
         ],
+        "timeString": "All",
         "times": [
             1,
             2,
@@ -872,12 +918,14 @@
         "name": "Pike",
         "location": "River",
         "value": 1800,
+        "monthsString": "September - December",
         "months": [
             9,
             10,
             11,
             12
         ],
+        "timeString": "All",
         "times": [
             1,
             2,
@@ -911,11 +959,13 @@
         "name": "Pond Smelt",
         "location": "River",
         "value": 500,
+        "monthsString": "December - February",
         "months": [
             1,
             2,
             12
         ],
+        "timeString": "All",
         "times": [
             1,
             2,
@@ -949,11 +999,13 @@
         "name": "Sweetfish",
         "location": "River",
         "value": 900,
+        "monthsString": "July - September",
         "months": [
             7,
             8,
             9
         ],
+        "timeString": "All",
         "times": [
             1,
             2,
@@ -987,6 +1039,7 @@
         "name": "Cherry Salmon",
         "location": "River (Clifftop)",
         "value": 1000,
+        "monthsString": "March - June; September - November",
         "months": [
             3,
             4,
@@ -996,6 +1049,7 @@
             10,
             11
         ],
+        "timeString": "4PM - 9AM",
         "times": [
             1,
             2,
@@ -1023,6 +1077,7 @@
         "name": "Char",
         "location": "River (Clifftop)",
         "value": 3800,
+        "monthsString": "March - June; September - November",
         "months": [
             3,
             4,
@@ -1032,6 +1087,7 @@
             10,
             11
         ],
+        "timeString": "4PM - 9AM",
         "times": [
             1,
             2,
@@ -1059,15 +1115,16 @@
         "name": "Golden Trout",
         "location": "River (Clifftop)",
         "value": 15000,
+        "monthsString": "March - May; September - November",
         "months": [
             3,
             4,
             5,
-            6,
             9,
             10,
             11
         ],
+        "timeString": "4PM - 9AM",
         "times": [
             1,
             2,
@@ -1095,12 +1152,14 @@
         "name": "Stringfish",
         "location": "River (Clifftop)",
         "value": 15000,
+        "monthsString": "December - March",
         "months": [
             1,
             2,
             3,
             12
         ],
+        "timeString": "4PM - 9AM",
         "times": [
             1,
             2,
@@ -1128,9 +1187,11 @@
         "name": "Salmon",
         "location": "River (Mouth)",
         "value": 700,
+        "monthsString": "September",
         "months": [
             9
         ],
+        "timeString": "All",
         "times": [
             1,
             2,
@@ -1164,9 +1225,11 @@
         "name": "King Salmon",
         "location": "River (Mouth)",
         "value": 1800,
+        "monthsString": "September",
         "months": [
             9
         ],
+        "timeString": "All",
         "times": [
             1,
             2,
@@ -1200,11 +1263,13 @@
         "name": "Mitten Crab",
         "location": "River",
         "value": 2000,
+        "monthsString": "September - November",
         "months": [
             9,
             10,
             11
         ],
+        "timeString": "4PM - 9AM",
         "times": [
             1,
             2,
@@ -1232,6 +1297,7 @@
         "name": "Guppy",
         "location": "River",
         "value": 1300,
+        "monthsString": "April - November",
         "months": [
             4,
             5,
@@ -1242,6 +1308,7 @@
             10,
             11
         ],
+        "timeString": "9AM - 4PM",
         "times": [
             9,
             10,
@@ -1259,6 +1326,7 @@
         "name": "Nibble Fish",
         "location": "River",
         "value": 1500,
+        "monthsString": "May - September",
         "months": [
             5,
             6,
@@ -1266,6 +1334,7 @@
             8,
             9
         ],
+        "timeString": "9AM - 4PM",
         "times": [
             9,
             10,
@@ -1283,6 +1352,7 @@
         "name": "Angelfish",
         "location": "River",
         "value": 3000,
+        "monthsString": "May - October",
         "months": [
             5,
             6,
@@ -1291,6 +1361,7 @@
             9,
             10
         ],
+        "timeString": "4PM - 9AM",
         "times": [
             1,
             2,
@@ -1318,6 +1389,7 @@
         "name": "Betta",
         "location": "River",
         "value": 2500,
+        "monthsString": "May - October",
         "months": [
             5,
             6,
@@ -1326,6 +1398,7 @@
             9,
             10
         ],
+        "timeString": "9AM - 4PM",
         "times": [
             9,
             10,
@@ -1343,6 +1416,7 @@
         "name": "Neon Tetra",
         "location": "River",
         "value": 500,
+        "monthsString": "April - November",
         "months": [
             4,
             5,
@@ -1353,6 +1427,7 @@
             10,
             11
         ],
+        "timeString": "9AM - 4PM",
         "times": [
             9,
             10,
@@ -1370,6 +1445,7 @@
         "name": "Rainbowfish",
         "location": "River",
         "value": 800,
+        "monthsString": "May - October",
         "months": [
             5,
             6,
@@ -1378,6 +1454,7 @@
             9,
             10
         ],
+        "timeString": "9AM - 4PM",
         "times": [
             9,
             10,
@@ -1395,12 +1472,14 @@
         "name": "Piranha",
         "location": "River",
         "value": 2500,
+        "monthsString": "June - September",
         "months": [
             6,
             7,
             8,
             9
         ],
+        "timeString": "9AM - 4PM; 9PM - 4AM",
         "times": [
             9,
             10,
@@ -1426,12 +1505,14 @@
         "name": "Arowana",
         "location": "River",
         "value": 10000,
+        "monthsString": "June - September",
         "months": [
             6,
             7,
             8,
             9
         ],
+        "timeString": "4PM - 9AM",
         "times": [
             1,
             2,
@@ -1459,12 +1540,14 @@
         "name": "Dorado",
         "location": "River",
         "value": 15000,
+        "monthsString": "June - September",
         "months": [
             6,
             7,
             8,
             9
         ],
+        "timeString": "4AM - 9PM",
         "times": [
             4,
             5,
@@ -1492,12 +1575,14 @@
         "name": "Gar",
         "location": "Pond",
         "value": 6000,
+        "monthsString": "June - September",
         "months": [
             6,
             7,
             8,
             9
         ],
+        "timeString": "4PM - 9AM",
         "times": [
             1,
             2,
@@ -1525,12 +1610,14 @@
         "name": "Arapaima",
         "location": "River",
         "value": 10000,
+        "monthsString": "June - September",
         "months": [
             6,
             7,
             8,
             9
         ],
+        "timeString": "4PM - 9AM",
         "times": [
             1,
             2,
@@ -1558,12 +1645,14 @@
         "name": "Saddled Bichir",
         "location": "River",
         "value": 4000,
+        "monthsString": "June - September",
         "months": [
             6,
             7,
             8,
             9
         ],
+        "timeString": "9PM - 4AM",
         "times": [
             21,
             22,
@@ -1581,6 +1670,7 @@
         "name": "Sturgeon",
         "location": "River (Mouth)",
         "value": 10000,
+        "monthsString": "September - March",
         "months": [
             1,
             2,
@@ -1590,6 +1680,7 @@
             11,
             12
         ],
+        "timeString": "All",
         "times": [
             1,
             2,
@@ -1623,12 +1714,14 @@
         "name": "Sea Butterfly",
         "location": "Sea",
         "value": 1000,
+        "monthsString": "December - March",
         "months": [
             1,
             2,
             3,
             12
         ],
+        "timeString": "All",
         "times": [
             1,
             2,
@@ -1662,6 +1755,7 @@
         "name": "Sea Horse",
         "location": "Sea",
         "value": 1100,
+        "monthsString": "April - November",
         "months": [
             4,
             5,
@@ -1672,6 +1766,7 @@
             10,
             11
         ],
+        "timeString": "All",
         "times": [
             1,
             2,
@@ -1705,6 +1800,7 @@
         "name": "Clownfish",
         "location": "Sea",
         "value": 650,
+        "monthsString": "April - September",
         "months": [
             4,
             5,
@@ -1713,6 +1809,7 @@
             8,
             9
         ],
+        "timeString": "All",
         "times": [
             1,
             2,
@@ -1746,6 +1843,7 @@
         "name": "Surgeonfish",
         "location": "Sea",
         "value": 1000,
+        "monthsString": "April - September",
         "months": [
             4,
             5,
@@ -1754,6 +1852,7 @@
             8,
             9
         ],
+        "timeString": "All",
         "times": [
             1,
             2,
@@ -1787,6 +1886,7 @@
         "name": "Butterfly Fish",
         "location": "Sea",
         "value": 1000,
+        "monthsString": "April - September",
         "months": [
             4,
             5,
@@ -1795,6 +1895,7 @@
             8,
             9
         ],
+        "timeString": "All",
         "times": [
             1,
             2,
@@ -1828,10 +1929,12 @@
         "name": "Napoleonfish",
         "location": "Sea",
         "value": 10000,
+        "monthsString": "July - August",
         "months": [
             7,
             8
         ],
+        "timeString": "4AM - 9PM",
         "times": [
             4,
             5,
@@ -1859,6 +1962,7 @@
         "name": "Zebra Turkeyfish",
         "location": "Sea",
         "value": 500,
+        "monthsString": "April - November",
         "months": [
             4,
             5,
@@ -1869,6 +1973,7 @@
             10,
             11
         ],
+        "timeString": "All",
         "times": [
             1,
             2,
@@ -1902,12 +2007,14 @@
         "name": "Blowfish",
         "location": "Sea",
         "value": 5000,
+        "monthsString": "November - February",
         "months": [
             1,
             2,
             11,
             12
         ],
+        "timeString": "9PM - 4AM",
         "times": [
             21,
             22,
@@ -1925,11 +2032,13 @@
         "name": "Puffer Fish",
         "location": "Sea",
         "value": 250,
+        "monthsString": "July - September",
         "months": [
             7,
             8,
             9
         ],
+        "timeString": "All",
         "times": [
             1,
             2,
@@ -1963,6 +2072,7 @@
         "name": "Anchovy",
         "location": "Sea",
         "value": 200,
+        "monthsString": "All",
         "months": [
             1,
             2,
@@ -1977,6 +2087,7 @@
             11,
             12
         ],
+        "timeString": "4AM - 9PM",
         "times": [
             4,
             5,
@@ -2004,6 +2115,7 @@
         "name": "Horse Mackerel",
         "location": "Sea",
         "value": 150,
+        "monthsString": "All",
         "months": [
             1,
             2,
@@ -2018,6 +2130,7 @@
             11,
             12
         ],
+        "timeString": "All",
         "times": [
             1,
             2,
@@ -2051,6 +2164,7 @@
         "name": "Barred Knifejaw",
         "location": "Sea",
         "value": 5000,
+        "monthsString": "March - November",
         "months": [
             3,
             4,
@@ -2062,6 +2176,7 @@
             10,
             11
         ],
+        "timeString": "All",
         "times": [
             1,
             2,
@@ -2095,6 +2210,7 @@
         "name": "Sea Bass",
         "location": "Sea",
         "value": 400,
+        "monthsString": "All",
         "months": [
             1,
             2,
@@ -2109,6 +2225,7 @@
             11,
             12
         ],
+        "timeString": "All",
         "times": [
             1,
             2,
@@ -2142,6 +2259,7 @@
         "name": "Red Snapper",
         "location": "Sea",
         "value": 3000,
+        "monthsString": "All",
         "months": [
             1,
             2,
@@ -2156,6 +2274,7 @@
             11,
             12
         ],
+        "timeString": "All",
         "times": [
             1,
             2,
@@ -2189,6 +2308,7 @@
         "name": "Dab",
         "location": "Sea",
         "value": 300,
+        "monthsString": "October - April",
         "months": [
             1,
             2,
@@ -2198,6 +2318,7 @@
             11,
             12
         ],
+        "timeString": "All",
         "times": [
             1,
             2,
@@ -2231,6 +2352,7 @@
         "name": "Olive Flounder",
         "location": "Sea",
         "value": 800,
+        "monthsString": "All",
         "months": [
             1,
             2,
@@ -2245,6 +2367,7 @@
             11,
             12
         ],
+        "timeString": "All",
         "times": [
             1,
             2,
@@ -2278,6 +2401,7 @@
         "name": "Squid",
         "location": "Sea",
         "value": 500,
+        "monthsString": "December - August",
         "months": [
             1,
             2,
@@ -2289,6 +2413,7 @@
             8,
             12
         ],
+        "timeString": "All",
         "times": [
             1,
             2,
@@ -2322,11 +2447,13 @@
         "name": "Moray Eel",
         "location": "Sea",
         "value": 2000,
+        "monthsString": "August - October",
         "months": [
             8,
             9,
             10
         ],
+        "timeString": "All",
         "times": [
             1,
             2,
@@ -2360,6 +2487,7 @@
         "name": "Ribbon Eel",
         "location": "Sea",
         "value": 600,
+        "monthsString": "June - October",
         "months": [
             6,
             7,
@@ -2367,6 +2495,7 @@
             9,
             10
         ],
+        "timeString": "All",
         "times": [
             1,
             2,
@@ -2400,6 +2529,7 @@
         "name": "Tuna",
         "location": "Pier",
         "value": 7000,
+        "monthsString": "November - April",
         "months": [
             1,
             2,
@@ -2408,6 +2538,7 @@
             11,
             12
         ],
+        "timeString": "All",
         "times": [
             1,
             2,
@@ -2441,6 +2572,7 @@
         "name": "Blue Marlin",
         "location": "Pier",
         "value": 10000,
+        "monthsString": "July - April",
         "months": [
             1,
             2,
@@ -2452,6 +2584,7 @@
             11,
             12
         ],
+        "timeString": "All",
         "times": [
             1,
             2,
@@ -2485,6 +2618,7 @@
         "name": "Giant Trevally",
         "location": "Pier",
         "value": 4500,
+        "monthsString": "May - September",
         "months": [
             5,
             6,
@@ -2492,6 +2626,7 @@
             8,
             9
         ],
+        "timeString": "All",
         "times": [
             1,
             2,
@@ -2525,6 +2660,7 @@
         "name": "Mahi-Mahi",
         "location": "Sea",
         "value": 6000,
+        "monthsString": "May - October",
         "months": [
             5,
             6,
@@ -2533,6 +2669,7 @@
             9,
             10
         ],
+        "timeString": "All",
         "times": [
             1,
             2,
@@ -2566,11 +2703,13 @@
         "name": "Ocean Sunfish",
         "location": "Sea",
         "value": 4000,
+        "monthsString": "July - September",
         "months": [
             7,
             8,
             9
         ],
+        "timeString": "4AM - 9PM",
         "times": [
             4,
             5,
@@ -2598,12 +2737,14 @@
         "name": "Ray",
         "location": "Sea",
         "value": 3000,
+        "monthsString": "August - November",
         "months": [
             8,
             9,
             10,
             11
         ],
+        "timeString": "4AM - 9PM",
         "times": [
             4,
             5,
@@ -2631,12 +2772,14 @@
         "name": "Saw Shark",
         "location": "Sea",
         "value": 12000,
+        "monthsString": "June - September",
         "months": [
             6,
             7,
             8,
             9
         ],
+        "timeString": "4PM - 9AM",
         "times": [
             1,
             2,
@@ -2664,12 +2807,14 @@
         "name": "Hammerhead Shark",
         "location": "Sea",
         "value": 8000,
+        "monthsString": "June - September",
         "months": [
             6,
             7,
             8,
             9
         ],
+        "timeString": "4PM - 9AM",
         "times": [
             1,
             2,
@@ -2697,12 +2842,14 @@
         "name": "Great White Shark",
         "location": "Sea",
         "value": 15000,
+        "monthsString": "June - September",
         "months": [
             6,
             7,
             8,
             9
         ],
+        "timeString": "4PM - 9AM",
         "times": [
             1,
             2,
@@ -2730,12 +2877,14 @@
         "name": "Whale Shark",
         "location": "Sea",
         "value": 13000,
+        "monthsString": "June - September",
         "months": [
             6,
             7,
             8,
             9
         ],
+        "timeString": "All",
         "times": [
             1,
             2,
@@ -2769,12 +2918,14 @@
         "name": "Suckerfish",
         "location": "Sea",
         "value": 1500,
+        "monthsString": "June - September",
         "months": [
             6,
             7,
             8,
             9
         ],
+        "timeString": "All",
         "times": [
             1,
             2,
@@ -2808,6 +2959,7 @@
         "name": "Football Fish",
         "location": "Sea",
         "value": 2500,
+        "monthsString": "November - March",
         "months": [
             1,
             2,
@@ -2815,6 +2967,7 @@
             11,
             12
         ],
+        "timeString": "4PM - 9AM",
         "times": [
             1,
             2,
@@ -2842,6 +2995,7 @@
         "name": "Oarfish",
         "location": "Sea",
         "value": 9000,
+        "monthsString": "December - May",
         "months": [
             1,
             2,
@@ -2850,6 +3004,7 @@
             5,
             12
         ],
+        "timeString": "All",
         "times": [
             1,
             2,
@@ -2883,6 +3038,7 @@
         "name": "Barreleye",
         "location": "Sea",
         "value": 15000,
+        "monthsString": "All",
         "months": [
             1,
             2,
@@ -2897,6 +3053,7 @@
             11,
             12
         ],
+        "timeString": "9PM - 4AM",
         "times": [
             21,
             22,
@@ -2914,6 +3071,7 @@
         "name": "Coelacanth",
         "location": "Sea (Rain)",
         "value": 15000,
+        "monthsString": "All",
         "months": [
             1,
             2,
@@ -2928,6 +3086,7 @@
             11,
             12
         ],
+        "timeString": "All",
         "times": [
             1,
             2,

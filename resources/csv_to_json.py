@@ -50,9 +50,11 @@ with open('fish.csv', newline='\n') as fish_csvfile:
 				"name": row[1],
 				"location": row[2],
 				"value": int(row[3]),
-				"months": get_months(row[4]),
-				"times": get_times(row[5]),
-				"shadow": row[6]
+				"monthsString": row[4],
+				"months": get_months(row[5]),
+				"timeString": row[6],
+				"times": get_times(row[7]),
+				"shadow": row[8]
 
 			})
 print(json.dumps(fish, indent=4))

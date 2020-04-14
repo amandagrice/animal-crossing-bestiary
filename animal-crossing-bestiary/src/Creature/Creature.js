@@ -4,7 +4,7 @@ import './creature.css';
 function Creature(props) {
     return(
         <div className='creature-div'>
-            <div className='creature-number'>No. {props.data.id}</div>
+            <div className='creature-number'>No. {props.data.id}</div><br/>
             <div className='creature-name'>{props.data.name}</div>
             <div className='creature-image-holder'>
                 <img

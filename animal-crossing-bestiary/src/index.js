@@ -26,7 +26,7 @@ function Main() {
                     </Menu>
                 </div>
             )} />
-            <Route exact path='/' component={() => <div>Main</div>}/>
+            <Route exact path='/' component={() => <CreatureGrid type='fish'/>}/>
             <Route path='/fish' component={() => <CreatureGrid type='fish'/>}/>
             <Route path='/bugs' component={() => <CreatureGrid type='bug'/>}/>
         </BrowserRouter>

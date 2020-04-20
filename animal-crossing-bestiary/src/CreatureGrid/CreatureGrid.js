@@ -37,6 +37,33 @@ function CreatureGrid(props) {
         return arr1.some(item => arr2.includes(parseInt(item)));
     }
 
+    function getCaughtArr() {
+        if (props.type === 'fish') {
+            return localStorage.getItem('caught-fish');
+        } else {
+            return localStorage.getItem('caught-bugs');
+        }
+    }
+
+    function setCaughtArr(arr) {
+        if (props.type === 'fish') {
+            localStorage.setItem('caught-fish', arr);
+        } else {
+            localStorage.setItem('caught-bugs', arr);
+        }
+    }
+
+    function toggleCreatureCheckbox(e) {
+        let caughtArr = getCaughtArr();
+        if (caughtArr) {
+            caughtArr = JSON.parse(caughtArr);
+        } else {
+            caughtArr = new Array(80).fill(0);
+        }
+        caughtArr[e.target.id - 1] = +(e.target.checked);
+        setCaughtArr(JSON.stringify(caughtArr));
+    }
+
     return (
         <div>
             <div style={{textAlign: 'center', fontSize: '4vw'}}>Critterpedia</div>
@@ -81,7 +108,7 @@ function CreatureGrid(props) {
                 gridTemplateColumns: 'repeat(auto-fill, 400px)',
             }}>
                 {displayedCreatures && displayedCreatures.map((creature) =>
-                    <Creature key={creature.id} type={props.type} data={creature}/>
+                    <Creature key={creature.id} type={props.type} data={creature} onCheck={toggleCreatureCheckbox} />
                 )}
             </div>
         </div>

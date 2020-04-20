@@ -7,6 +7,7 @@ function CreatureGrid(props) {
     const [month, setMonth] = useState("all");
     const [time, setTime] = useState("all");
     const [displayedCreatures, setDisplayedCreatures] = useState(props.type === 'fish' ? allFishData : allBugData);
+    const [caughtCreatures, setCaughtCreatures] = useState(JSON.parse(getCaughtArr()) || new Array(80).fill(0));
     useEffect(() => {
         let toDisplay = [];
         if (props.type === 'fish') {
@@ -47,9 +48,11 @@ function CreatureGrid(props) {
 
     function setCaughtArr(arr) {
         if (props.type === 'fish') {
-            localStorage.setItem('caught-fish', arr);
+            setCaughtCreatures(arr);
+            localStorage.setItem('caught-fish', JSON.stringify(arr));
         } else {
-            localStorage.setItem('caught-bugs', arr);
+            setCaughtCreatures(arr);
+            localStorage.setItem('caught-bugs', JSON.stringify(arr));
         }
     }
 
@@ -61,7 +64,7 @@ function CreatureGrid(props) {
             caughtArr = new Array(80).fill(0);
         }
         caughtArr[e.target.id - 1] = +(e.target.checked);
-        setCaughtArr(JSON.stringify(caughtArr));
+        setCaughtArr(caughtArr);
     }
 
     return (
@@ -108,7 +111,7 @@ function CreatureGrid(props) {
                 gridTemplateColumns: 'repeat(auto-fill, 400px)',
             }}>
                 {displayedCreatures && displayedCreatures.map((creature) =>
-                    <Creature key={creature.id} type={props.type} data={creature} onCheck={toggleCreatureCheckbox} />
+                    <Creature key={creature.id} type={props.type} data={creature} isCaught={!!caughtCreatures[creature.id - 1]} onCheck={toggleCreatureCheckbox} />
                 )}
             </div>
         </div>

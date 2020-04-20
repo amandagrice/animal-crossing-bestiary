@@ -33,7 +33,7 @@ function Creature(props) {
                 className='creature-checkbox'
                 type="checkbox"
                 onChange={props.onCheck}
-                checked={props.data.checked}
+                checked={props.isCaught}
             />
             <br/>
         </div>

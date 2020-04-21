@@ -6,15 +6,20 @@ function CreatureGrid(props) {
     const allBugData = require('./bugs.json');
     const [month, setMonth] = useState("all");
     const [time, setTime] = useState("all");
+    const [location, setLocation] = useState("all");
     const [displayedCreatures, setDisplayedCreatures] = useState(props.type === 'fish' ? allFishData : allBugData);
     const [caughtCreatures, setCaughtCreatures] = useState(JSON.parse(getCaughtArr()) || new Array(80).fill(0));
+    const fishLocations = ["River", "Pond", "Sea", "Pier"];
+    const bugLocations = ["Flowers", "Flying", "Near Lights", "Trees", "In Grass", "Water", "Stumps", "Ground", "Rotten", "Beach", "Villagers", "Rocks"];
     useEffect(() => {
         let toDisplay = [];
         if (props.type === 'fish') {
             allFishData.forEach(fish => {
                 if (month === 'all' || fish.months.includes(parseInt(month))) {
                     if (time === 'all' || findCommonElements(toIntArray(time), fish.times)) {
-                        toDisplay.push(fish)
+                        if (location === 'all' || fish.location.toLowerCase().includes(location)) {
+                            toDisplay.push(fish)
+                        }
                     }
                 }
             });
@@ -22,13 +27,15 @@ function CreatureGrid(props) {
             allBugData.forEach(bug => {
                 if (month === 'all' || bug.months.includes(parseInt(month))) {
                     if (time === 'all' || findCommonElements(toIntArray(time), bug.times)) {
-                        toDisplay.push(bug)
+                        if (location === 'all' || bug.location.toLowerCase().includes(location)) {
+                            toDisplay.push(bug)
+                        }
                     }
                 }
             });
         }
         setDisplayedCreatures(toDisplay);
-    }, [month, time]);
+    }, [month, time, location]);
 
     function toIntArray(s) {
         return s.split(',').map(e => parseInt(e))
@@ -103,6 +110,22 @@ function CreatureGrid(props) {
                         <option value="9, 10, 11, 12, 13, 14, 15">Day (9AM to 4PM)</option>
                         <option value="16, 17, 18, 19, 20">Evening (4PM to 9PM)</option>
                         <option value="1, 2, 3, 21, 22, 23, 24">Super Late (9PM to 4AM)</option>
+                    </select>
+                </div>
+                <br />
+                <div>
+                    <label htmlFor="location-dropdown">Location:</label>
+                    <select
+                        id="location-dropdown"
+                        value={location}
+                        onChange={(e) => setLocation(e.target.value)}>
+                        <option value="all">All</option>
+                        {props.type === "bug" && bugLocations.map((location) =>
+                            <option value={location.toLowerCase()}>{location}</option>
+                        )}
+                        {props.type === "fish" && fishLocations.map((location) =>
+                            <option value={location.toLowerCase()}>{location}</option>
+                        )}
                     </select>
                 </div>
             </div>

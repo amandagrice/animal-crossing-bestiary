@@ -99,10 +99,10 @@ function CreatureGrid(props) {
                         value={time}
                         onChange={(e) => setTime(e.target.value)}>
                         <option value="all">All</option>
-                        <option value="4, 5, 6, 7, 8, 9">Super Early (4AM to 9AM)</option>
-                        <option value="9, 10, 11, 12, 13, 14, 15, 16">Day (9AM to 4PM)</option>
-                        <option value="16, 17, 18, 19, 20, 21">Evening (4PM to 9PM)</option>
-                        <option value="1, 2, 3, 4, 21, 22, 23, 24">Super Late (9PM to 4am)</option>
+                        <option value="4, 5, 6, 7, 8">Super Early (4AM to 9AM)</option>
+                        <option value="9, 10, 11, 12, 13, 14, 15">Day (9AM to 4PM)</option>
+                        <option value="16, 17, 18, 19, 20">Evening (4PM to 9PM)</option>
+                        <option value="1, 2, 3, 21, 22, 23, 24">Super Late (9PM to 4AM)</option>
                     </select>
                 </div>
             </div>

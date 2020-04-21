@@ -20,13 +20,14 @@ function Creature(props) {
                     src={process.env.PUBLIC_URL + '/bugs/' + props.data.name.replace(/ /g, '_') + '.png'}
                     alt=''/>
             </div>
-            <div style={{fontSize: '17px', position: 'absolute', bottom: 10, left: 10}}>
-                <strong>Months:</strong> {props.data.monthsString} <br/>
-                <strong>Times:</strong> {props.data.timeString} <br/>
-                <strong>Location:</strong> {props.data.location} <br/>
-                <strong>Value:</strong> {props.data.value} <br/>
-                <div style={{display: props.type !== 'fish' ? 'none' : ''}}><strong>Shadow
-                    Size: </strong>{props.data.shadow} <br/></div>
+            <div style={{fontSize: '15px', position: 'absolute', bottom: -5, left: 10, lineHeight: '15px'}}>
+                <p><strong>Months:</strong> {props.data.monthsString}</p>
+                <p><strong>Times:</strong> {props.data.timeString}</p>
+                <p><strong>Location:</strong> {props.data.location}</p>
+                <p><strong>Value:</strong> {props.data.value}</p>
+                <p style={{display: props.type !== 'fish' ? 'none' : ''}}>
+                    <strong>Shadow Size: </strong>{props.data.shadow}
+                </p>
             </div>
             <input
                 id={props.data.id}

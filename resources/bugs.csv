@@ -1,14 +1,14 @@
 1,Common Butterfly,Above Flowers,160,September - June,1; 2; 3; 4; 5; 6; 9; 10; 11; 12,4AM - 7PM
 2,Yellow butterfly,Flying,160,March - May; September - October,3; 4; 5; 6; 9; 10,4AM - 7PM
 3,Tiger Butterfly,Flying,240,March - September,3; 4; 5; 6; 7; 8; 9,4AM - 7PM
-4,Peacock Buttefly,Above Purple; Black; Blue Flowers,2500,March - June,3; 4; 5; 6,4AM - 7PM
+4,Peacock Butterfly,Above purple / black / blue Flowers,2500,March - June,3; 4; 5; 6,4AM - 7PM
 5,Common Bluebottle,Flying,300,April - August,4; 5; 6; 7; 8,4AM - 7PM
 6,Paper Kite Butterfly,Flying,1000,All,All,8AM - 7PM
 7,Great Purple Emperor,Flying,3000,May - August,5; 6; 7; 8,4AM - 7PM
 8,Monarch Butterfly,Flying,140,September - November,9; 10; 11,4AM - 5PM
 9,Emperor Butterfly,Flying,4000,December - March; June - September,1; 2; 3; 6; 7; 8; 9; 12,5PM - 8AM
 10,Agrias Butterfly,Flying,3000,April - September,4; 5; 6; 7; 8; 9,8AM - 5PM
-11,Rajah Brooke's Birdwing,Above Purple; Black; Blue Flowers,2500,December - February; April - September,1; 2; 4; 5; 6; 7; 8; 9; 12,8AM - 5PM
+11,Rajah Brooke's Birdwing,Above purple / black / blue Flowers,2500,December - February; April - September,1; 2; 4; 5; 6; 7; 8; 9; 12,8AM - 5PM
 12,Queen Alexandra's Birdwing,Flying,4000,May - September,5; 6; 7; 8; 9,8AM - 4PM
 13,Moth,Near Lights,130,All,All,7PM - 4AM
 14,Atlas Moth,On Trees,3000,April - September,4; 5; 6; 7; 8; 9,7PM - 4AM
@@ -43,8 +43,8 @@
 43,Ladybug,On Flowers,200,March - June; October,3; 4; 5; 6; 10,8AM - 5PM
 44,Tiger beetle,Flying,1500,February - October,2; 3; 4; 5; 6; 7; 8; 9; 10,All
 45,Jewel Beetle,On Trees,2400,April - August,4; 5; 6; 7; 8,All
-46,Citrus Long-Horned Beetle,On Tree Stumps,350,All,All,All
-47,Rosalia Batesi Beetle,On Tree Stumps,3000,May - September,5; 6; 7; 8; 9,All
+46,Citrus Long-Horned Beetle,On Stumps,350,All,All,All
+47,Rosalia Batesi Beetle,On Stumps,3000,May - September,5; 6; 7; 8; 9,All
 48,Blue Weevil Beetle,On Trees,800,July - August,7; 8,All
 49,Violin Beetle,On Trees,450,May - November,5; 6; 9; 10; 11,All
 50,Dung beetle,On Ground,400,December - February,1; 2; 12,All
@@ -66,10 +66,10 @@
 66,Walking Stick,On Trees,600,July - November,7; 8; 9; 10; 11,4AM - 8AM / 5PM - 7PM
 67,Walking Leaf,On Ground (Beneath Trees),600,July - September,7; 8; 9,All
 68,Bagworm,Shaking Trees,600,All,All,All
-69,Ant,On Rotten Turnips and Fruit,80,All,All,All
+69,Ant,On Rotten Food,80,All,All,All
 70,Hermit crab,On Beach,1000,All,All,7PM - 8AM
 71,Wharf Roach,On Beach Rocks,200,All,All,All
-72,Fly,On Rotten Food and Garbage,80,All,All,All
+72,Fly,On Rotten Food; Garbage,80,All,All,All
 73,Mosquito,Flying,130,June - September,6; 7; 8; 9,5PM - 4AM
 74,Flea,On Flea-Infested Villagers,70,April - November,4; 5; 6; 7; 8; 9; 10; 11,All
 75,Snail,On Rocks (Rain),250,All,All,All

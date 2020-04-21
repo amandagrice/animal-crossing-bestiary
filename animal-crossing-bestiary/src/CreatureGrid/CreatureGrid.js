@@ -112,7 +112,6 @@ function CreatureGrid(props) {
                         <option value="1, 2, 3, 21, 22, 23, 24">Super Late (9PM to 4AM)</option>
                     </select>
                 </div>
-                <br />
                 <div>
                     <label htmlFor="location-dropdown">Location:</label>
                     <select

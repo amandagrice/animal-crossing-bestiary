@@ -54,8 +54,8 @@
     },
     {
         "id": 4,
-        "name": "Peacock Buttefly",
-        "location": "Above Purple; Black; Blue Flowers",
+        "name": "Peacock Butterfly",
+        "location": "Above purple / black / blue Flowers",
         "value": 2500,
         "monthsString": "March - June",
         "months": [
@@ -167,7 +167,7 @@
     {
         "id": 11,
         "name": "Rajah Brooke's Birdwing",
-        "location": "Above Purple; Black; Blue Flowers",
+        "location": "Above purple / black / blue Flowers",
         "value": 2500,
         "monthsString": "December - February; April - September",
         "months": [
@@ -704,7 +704,7 @@
     {
         "id": 46,
         "name": "Citrus Long-Horned Beetle",
-        "location": "On Tree Stumps",
+        "location": "On Stumps",
         "value": 350,
         "monthsString": "All",
         "months": [
@@ -726,7 +726,7 @@
     {
         "id": 47,
         "name": "Rosalia Batesi Beetle",
-        "location": "On Tree Stumps",
+        "location": "On Stumps",
         "value": 3000,
         "monthsString": "May - September",
         "months": [
@@ -1017,7 +1017,7 @@
     {
         "id": 69,
         "name": "Ant",
-        "location": "On Rotten Turnips and Fruit",
+        "location": "On Rotten Food",
         "value": 80,
         "monthsString": "All",
         "months": [
@@ -1083,7 +1083,7 @@
     {
         "id": 72,
         "name": "Fly",
-        "location": "On Rotten Food and Garbage",
+        "location": "On Rotten Food; Garbage",
         "value": 80,
         "monthsString": "All",
         "months": [

@@ -79,7 +79,7 @@ function CreatureGrid(props) {
             <div style={{textAlign: 'center', fontSize: '4vw'}}>Critterpedia</div>
             <div style={{textAlign: 'center', fontSize: '2vw'}}>Displaying: {displayedCreatures.length} of 80</div>
             <div style={{textAlign: 'center'}}>
-                <label htmlFor="month-dropdown">Month:</label>
+                <label htmlFor="month-dropdown">Month: </label>
                 <select
                     id="month-dropdown"
                     value={month}
@@ -99,21 +99,22 @@ function CreatureGrid(props) {
                     <option value="12">December</option>
                 </select>
                 <br/>
-                <div style={{display: props.type === 'bug' ? 'none' : ''}}>
-                    <label htmlFor="time-dropdown">Time:</label>
-                    <select
-                        id="time-dropdown"
-                        value={time}
-                        onChange={(e) => setTime(e.target.value)}>
-                        <option value="all">All</option>
-                        <option value="4, 5, 6, 7, 8">Super Early (4AM to 9AM)</option>
-                        <option value="9, 10, 11, 12, 13, 14, 15">Day (9AM to 4PM)</option>
-                        <option value="16, 17, 18, 19, 20">Evening (4PM to 9PM)</option>
-                        <option value="1, 2, 3, 21, 22, 23, 24">Super Late (9PM to 4AM)</option>
-                    </select>
-                </div>
+                <label htmlFor="time-dropdown">Time: </label>
+                <select
+                    id="time-dropdown"
+                    value={time}
+                    onChange={(e) => setTime(e.target.value)}>
+                    <option value="all">All</option>
+                    <option value="4, 5, 6, 7, 8">Super Early (4AM to 9AM)</option>
+                    <option value="9, 10, 11, 12, 13, 14, 15">Day (9AM to 4PM)</option>
+                    <option value="16, 17, 18, 19, 20">Evening (4PM to 9PM)</option>
+                    <option value="1, 2, 3, 21, 22, 23, 24">Super Late (9PM to 4AM)</option>
+                    {[...Array(24).keys()].map((hour) =>
+                        <option value={hour + 1}>{(hour + 1).toString() + ':00'}</option>
+                    )}
+                </select>
                 <div>
-                    <label htmlFor="location-dropdown">Location:</label>
+                    <label htmlFor="location-dropdown">Location: </label>
                     <select
                         id="location-dropdown"
                         value={location}

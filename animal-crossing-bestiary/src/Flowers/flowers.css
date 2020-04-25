@@ -1,0 +1,20 @@
+.flower-column {
+    float: left;
+    width: 40%;
+    padding-left: 120px;
+}
+
+.flower-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.flower-equation {
+    white-space: nowrap;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}

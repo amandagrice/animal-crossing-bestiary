@@ -20,6 +20,7 @@ body {
 }
 
 #menu-icon {
+  z-index: 999;
   height: 100px;
   width: 100px;
   position: fixed;

@@ -1,0 +1,20 @@
+.daily-checklist {
+    font-size: 50px;
+    margin-left: 120px;
+    white-space: nowrap;
+}
+
+.daily-checklist-checkbox {
+    width:30px;
+    height:30px;
+    border-radius:5px;
+    border:2px solid #555;
+}
+
+.creature-div  input[type='checkbox']:checked {
+    background: forestgreen;
+}
+
+.creature-div  input[type='checkbox']:hover {
+    border-color: white;
+}

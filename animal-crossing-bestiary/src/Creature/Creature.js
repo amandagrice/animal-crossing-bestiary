@@ -9,16 +9,18 @@ function Creature(props) {
             <br/>
             <div className='creature-name'>{props.data.name}</div>
             <div className='creature-image-holder'>
-                <img
-                    style={{display: props.type !== 'fish' ? 'none' : ''}}
-                    className='creature-image'
-                    src={process.env.PUBLIC_URL + '/fish/' + props.data.name.replace(/ /g, '_') + '.png'}
-                    alt=''/>
-                <img
-                    style={{display: props.type !== 'bug' ? 'none' : ''}}
-                    className='creature-image'
-                    src={process.env.PUBLIC_URL + '/bugs/' + props.data.name.replace(/ /g, '_') + '.png'}
-                    alt=''/>
+                {props.type === 'fish' &&
+                    <img
+                        className='creature-image'
+                        src={process.env.PUBLIC_URL + '/fish_images/' + props.data.name.replace(/ /g, '_') + '.png'}
+                        alt=''/>
+                }
+                {props.type === 'bug' &&
+                    <img
+                        className='creature-image'
+                        src={process.env.PUBLIC_URL + '/bug_images/' + props.data.name.replace(/ /g, '_') + '.png'}
+                        alt=''/>
+                    }
             </div>
             <div style={{fontSize: '15px', position: 'absolute', bottom: -5, left: 10, lineHeight: '15px'}}>
                 <p><strong>Months:</strong> {props.data.monthsString}</p>

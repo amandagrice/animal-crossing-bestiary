@@ -14,7 +14,7 @@ function Equation(props) {
 }
 
 function Flower(props) {
-    const imagePath = process.env.PUBLIC_URL + '/flowers/' + props.type + '_' + props.color + '.png';
+    const imagePath = process.env.PUBLIC_URL + '/flower_images/' + props.type + '_' + props.color + '.png';
     return (<img src={imagePath} alt='' style={{maxWidth: '150px', maxHeight: '120px'}}/>)
 }
 
